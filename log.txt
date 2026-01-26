@@ -1,0 +1,258 @@
+10:39:49 info Gateway Status
+10:39:49 info Reachable: yes
+10:39:49 info Probe budget: 3000ms
+10:39:49 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:39:49.454Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:39:49.455Z"}
+10:39:49 info Discovery (this machine)
+10:39:49 info Found 0 gateways via Bonjour (local. + clawdbot.internal.)
+10:39:49 info Tip: if the gateway is remote, mDNS won’t cross networks; use Wide-Area Bonjour (split DNS) or SSH tunnels.
+10:39:49 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:39:49.455Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:39:49.456Z"}
+10:39:49 info Targets
+10:39:49 info Local loopback ws://127.0.0.1:18789
+10:39:49 info   Connect: ok (38ms) · RPC: ok
+10:39:49 info   Gateway: WIN-0VFN2S8ADCE (192.168.1.69) · windows 10.0.22631 · app unknown
+10:39:49 info   Wide-area discovery: unknown
+10:39:49 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:39:49.457Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:39:49.457Z"}
+10:41:14 info gateway {"subsystem":"gateway"} device pairing auto-approved device=642703ca79a6a19d803ca49ee138d510e5a94680b0881f38d392245c84329b53 role=operator
+10:41:14 info gateway/ws {"subsystem":"gateway/ws"} webchat connected conn=a3824af0-7e7e-413c-ad7e-baf66832b663 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+10:46:16 info Updated channels.telegram.dmPolicy. Restart the gateway to apply.
+10:46:16 info gateway/reload {"subsystem":"gateway/reload"} config change detected; evaluating reload (meta.lastTouchedAt, channels)     
+10:46:16 warn gateway/reload {"subsystem":"gateway/reload"} config change requires gateway restart (meta.lastTouchedAt, channels)        
+10:46:16 info gateway {"subsystem":"gateway"} signal SIGUSR1 received
+10:46:16 info gateway {"subsystem":"gateway"} received SIGUSR1; restarting
+10:46:17 info gmail-watcher {"subsystem":"gmail-watcher"} gmail watcher stopped
+10:46:17 info gateway/ws {"subsystem":"gateway/ws"} webchat disconnected code=1012 reason=service restart conn=a3824af0-7e7e-413c-ad7e-baf66832b663
+10:46:17 info gateway {"subsystem":"gateway"} gateway: auto-enabled plugins:
+- Telegram configured, not enabled yet.
+10:46:17 info gateway/canvas {"subsystem":"gateway/canvas"} canvas host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root C:\Users\Administrator\clawd\canvas)
+10:46:17 info gateway/heartbeat {"subsystem":"gateway/heartbeat"} {"intervalMs":1800000} heartbeat: started
+10:46:17 info gateway {"subsystem":"gateway"} agent model: minimax/minimax-m2.1
+10:46:17 info gateway {"subsystem":"gateway"} listening on ws://127.0.0.1:18789 (PID 61596)
+10:46:17 info gateway {"subsystem":"gateway"} listening on ws://[::1]:18789
+10:46:17 info gateway {"subsystem":"gateway"} log file: \tmp\clawdbot\clawdbot-2026-01-26.log
+10:46:17 info browser/server {"subsystem":"browser/server"} Browser control listening on http://127.0.0.1:18791/
+10:46:17 info cron {"module":"cron","storePath":"C:\\Users\\Administrator\\.clawdbot\\cron\\jobs.json"} {"enabled":true,"jobs":0,"nextWakeAtMs":null} cron: started
+10:46:18 info gateway/ws {"subsystem":"gateway/ws"} webchat connected conn=9ddfb5c0-4bba-4391-b3aa-b06b3c2cd7ff remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+10:46:19 warn bonjour {"subsystem":"bonjour"} gateway name conflict resolved; newName="WIN-0VFN2S8ADCE (Clawdbot) (2)"
+10:46:19 warn bonjour {"subsystem":"bonjour"} gateway hostname conflict resolved; newHostname="WIN-0VFN2S8ADCE-(2)"
+10:46:19 info bonjour: advertised gateway fqdn=WIN-0VFN2S8ADCE (Clawdbot) (2)._clawdbot-gw._tcp.local. host=WIN-0VFN2S8ADCE-(2).local. port=18789 state=announcing
+10:46:20 info Updated channels.telegram.groupPolicy. Restart the gateway to apply.
+10:46:20 info gateway/reload {"subsystem":"gateway/reload"} config change detected; evaluating reload (meta.lastTouchedAt)
+10:46:20 warn gateway/reload {"subsystem":"gateway/reload"} config change requires gateway restart (meta.lastTouchedAt)
+10:46:20 info gateway {"subsystem":"gateway"} signal SIGUSR1 received
+10:46:20 info gateway {"subsystem":"gateway"} received SIGUSR1; restarting
+10:46:20 info gmail-watcher {"subsystem":"gmail-watcher"} gmail watcher stopped
+10:46:20 info gateway/ws {"subsystem":"gateway/ws"} webchat disconnected code=1012 reason=service restart conn=9ddfb5c0-4bba-4391-b3aa-b06b3c2cd7ff
+10:46:20 info gateway/canvas {"subsystem":"gateway/canvas"} canvas host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root C:\Users\Administrator\clawd\canvas)
+10:46:20 info gateway/heartbeat {"subsystem":"gateway/heartbeat"} {"intervalMs":1800000} heartbeat: started
+10:46:20 info gateway {"subsystem":"gateway"} agent model: minimax/minimax-m2.1
+10:46:20 info gateway {"subsystem":"gateway"} listening on ws://127.0.0.1:18789 (PID 61596)
+10:46:20 info gateway {"subsystem":"gateway"} listening on ws://[::1]:18789
+10:46:20 info gateway {"subsystem":"gateway"} log file: \tmp\clawdbot\clawdbot-2026-01-26.log
+10:46:20 info browser/server {"subsystem":"browser/server"} Browser control listening on http://127.0.0.1:18791/
+10:46:20 info cron {"module":"cron","storePath":"C:\\Users\\Administrator\\.clawdbot\\cron\\jobs.json"} {"enabled":true,"jobs":0,"nextWakeAtMs":null} cron: started
+10:46:21 info gateway/ws {"subsystem":"gateway/ws"} webchat connected conn=8e4a77d9-f66a-4961-bb2a-57323966d331 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+10:46:22 warn bonjour {"subsystem":"bonjour"} gateway name conflict resolved; newName="WIN-0VFN2S8ADCE (Clawdbot) (2)"
+10:46:22 warn bonjour {"subsystem":"bonjour"} gateway hostname conflict resolved; newHostname="WIN-0VFN2S8ADCE-(2)"
+10:46:22 info bonjour: advertised gateway fqdn=WIN-0VFN2S8ADCE (Clawdbot) (2)._clawdbot-gw._tcp.local. host=WIN-0VFN2S8ADCE-(2).local. port=18789 state=announcing
+10:46:31 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:46:31 error Port 18789 is already in use.
+10:46:31 error - pid 61596: node.exe (127.0.0.1:18789)
+10:46:31 error - Another process is listening on this port.
+10:46:32 error Gateway service appears registered. Stop it first.
+10:46:32 error Tip: clawdbot gateway stop
+10:46:32 error Or: schtasks /End /TN "Clawdbot Gateway"
+10:46:40 info Updated channels.telegram.tokenFile. Restart the gateway to apply.
+10:46:41 info gateway/reload {"subsystem":"gateway/reload"} config change detected; evaluating reload (meta.lastTouchedAt, channels.telegram.tokenFile)
+10:46:41 warn gateway/reload {"subsystem":"gateway/reload"} config change requires gateway restart (meta.lastTouchedAt)
+10:46:41 info gateway {"subsystem":"gateway"} signal SIGUSR1 received
+10:46:41 info gateway {"subsystem":"gateway"} received SIGUSR1; restarting
+10:46:41 info gmail-watcher {"subsystem":"gmail-watcher"} gmail watcher stopped
+10:46:41 info gateway/ws {"subsystem":"gateway/ws"} webchat disconnected code=1012 reason=service restart conn=8e4a77d9-f66a-4961-bb2a-57323966d331
+10:46:41 info gateway/canvas {"subsystem":"gateway/canvas"} canvas host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root C:\Users\Administrator\clawd\canvas)
+10:46:41 info gateway/heartbeat {"subsystem":"gateway/heartbeat"} {"intervalMs":1800000} heartbeat: started
+10:46:41 info gateway {"subsystem":"gateway"} agent model: minimax/minimax-m2.1
+10:46:41 info gateway {"subsystem":"gateway"} listening on ws://127.0.0.1:18789 (PID 61596)
+10:46:41 info gateway {"subsystem":"gateway"} listening on ws://[::1]:18789
+10:46:41 info gateway {"subsystem":"gateway"} log file: \tmp\clawdbot\clawdbot-2026-01-26.log
+10:46:41 info browser/server {"subsystem":"browser/server"} Browser control listening on http://127.0.0.1:18791/
+10:46:41 info cron {"module":"cron","storePath":"C:\\Users\\Administrator\\.clawdbot\\cron\\jobs.json"} {"enabled":true,"jobs":0,"nextWakeAtMs":null} cron: started
+10:46:42 info gateway/ws {"subsystem":"gateway/ws"} webchat connected conn=2bebd6df-1ded-4e2e-a584-aa27195470ae remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+10:46:43 warn bonjour {"subsystem":"bonjour"} gateway name conflict resolved; newName="WIN-0VFN2S8ADCE (Clawdbot) (2)"
+10:46:43 warn bonjour {"subsystem":"bonjour"} gateway hostname conflict resolved; newHostname="WIN-0VFN2S8ADCE-(2)"
+10:46:43 info bonjour: advertised gateway fqdn=WIN-0VFN2S8ADCE (Clawdbot) (2)._clawdbot-gw._tcp.local. host=WIN-0VFN2S8ADCE-(2).local. port=18789 state=announcing
+10:46:52 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:46:52 error Port 18789 is already in use.
+10:46:52 error - pid 61596: node.exe (127.0.0.1:18789)
+10:46:52 error - Another process is listening on this port.
+10:46:52 error Gateway service appears registered. Stop it first.
+10:46:52 error Tip: clawdbot gateway stop
+10:46:52 error Or: schtasks /End /TN "Clawdbot Gateway"
+10:47:29 info Updated channels.telegram.tokenFile. Restart the gateway to apply.
+10:47:29 info gateway/reload {"subsystem":"gateway/reload"} config change detected; evaluating reload (meta.lastTouchedAt)
+10:47:29 warn gateway/reload {"subsystem":"gateway/reload"} config change requires gateway restart (meta.lastTouchedAt)
+10:47:29 info gateway {"subsystem":"gateway"} signal SIGUSR1 received
+10:47:29 info gateway {"subsystem":"gateway"} received SIGUSR1; restarting
+10:47:29 info gmail-watcher {"subsystem":"gmail-watcher"} gmail watcher stopped
+10:47:29 info gateway/ws {"subsystem":"gateway/ws"} webchat disconnected code=1012 reason=service restart conn=2bebd6df-1ded-4e2e-a584-aa27195470ae
+10:47:29 info gateway/canvas {"subsystem":"gateway/canvas"} canvas host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root C:\Users\Administrator\clawd\canvas)
+10:47:29 info gateway/heartbeat {"subsystem":"gateway/heartbeat"} {"intervalMs":1800000} heartbeat: started
+10:47:29 info gateway {"subsystem":"gateway"} agent model: minimax/minimax-m2.1
+10:47:29 info gateway {"subsystem":"gateway"} listening on ws://127.0.0.1:18789 (PID 61596)
+10:47:29 info gateway {"subsystem":"gateway"} listening on ws://[::1]:18789
+10:47:29 info gateway {"subsystem":"gateway"} log file: \tmp\clawdbot\clawdbot-2026-01-26.log
+10:47:29 info browser/server {"subsystem":"browser/server"} Browser control listening on http://127.0.0.1:18791/
+10:47:29 info cron {"module":"cron","storePath":"C:\\Users\\Administrator\\.clawdbot\\cron\\jobs.json"} {"enabled":true,"jobs":0,"nextWakeAtMs":null} cron: started
+10:47:31 info gateway/channels/telegram {"subsystem":"gateway/channels/telegram"} [default] starting provider (@Jamesggbot)
+10:47:31 debug skills {"subsystem":"skills"} {"rawName":"coding-agent","sanitized":"/coding_agent"} Sanitized skill command name "coding-agent" to "/coding_agent".
+10:47:31 debug skills {"subsystem":"skills"} {"rawName":"skill-creator","sanitized":"/skill_creator"} Sanitized skill command name "skill-creator" to "/skill_creator".
+10:47:31 info gateway/ws {"subsystem":"gateway/ws"} webchat connected conn=9dd58bcd-94d3-4fa1-b9f6-0f0847bf982f remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+10:47:31 warn bonjour {"subsystem":"bonjour"} gateway name conflict resolved; newName="WIN-0VFN2S8ADCE (Clawdbot) (2)"
+10:47:31 warn bonjour {"subsystem":"bonjour"} gateway hostname conflict resolved; newHostname="WIN-0VFN2S8ADCE-(2)"
+10:47:31 info bonjour: advertised gateway fqdn=WIN-0VFN2S8ADCE (Clawdbot) (2)._clawdbot-gw._tcp.local. host=WIN-0VFN2S8ADCE-(2).local. port=18789 state=announcing
+10:47:32 info gateway/ws {"subsystem":"gateway/ws"} ⇄ res ✓ channels.status 821ms conn=9dd58bcd…982f id=b7e44a87…1033
+10:47:36 info Gateway Status
+10:47:36 info Reachable: yes
+10:47:36 info Probe budget: 3000ms
+10:47:36 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:47:36.304Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:47:36.304Z"}
+10:47:36 info Discovery (this machine)
+10:47:36 info Found 0 gateways via Bonjour (local. + clawdbot.internal.)
+10:47:36 info Tip: if the gateway is remote, mDNS won’t cross networks; use Wide-Area Bonjour (split DNS) or SSH tunnels.
+10:47:36 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:47:36.305Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:47:36.305Z"}
+10:47:36 info Targets
+10:47:36 info Local loopback ws://127.0.0.1:18789
+10:47:36 info   Connect: ok (16ms) · RPC: ok
+10:47:36 info   Gateway: WIN-0VFN2S8ADCE (192.168.1.69) · windows 10.0.22631 · app unknown
+10:47:36 info   Wide-area discovery: unknown
+10:47:36 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T10:47:36.307Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T10:47:36.307Z"}
+10:47:40 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:47:40 error Port 18789 is already in use.
+10:47:40 error - pid 61596: node.exe (127.0.0.1:18789)
+10:47:40 error - Another process is listening on this port.
+10:47:40 error Gateway service appears registered. Stop it first.
+10:47:40 error Tip: clawdbot gateway stop
+10:47:40 error Or: schtasks /End /TN "Clawdbot Gateway"
+10:47:58 info telegram-auto-reply {"module":"telegram-auto-reply"} {"chatId":"856105119","username":"petemiui","firstName":"Pete","lastName":"Mui","matchKey":"none","matchSource":"none"} telegram pairing request
+10:48:12 info Approved telegram sender 856105119.
+10:48:22 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+10:48:22 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=7 queueSize=0
+10:48:22 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+10:48:22 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=2 queueSize=0
+10:48:22 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=main durationMs=17 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."        
+10:48:22 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=session:agent:main:main durationMs=21 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."
+10:48:22 error Embedded agent failed before reply: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir.
+10:49:01 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:49:01 error Port 18789 is already in use.
+10:49:01 error - pid 61596: node.exe (127.0.0.1:18789)
+10:49:01 error - Another process is listening on this port.
+10:49:01 error Gateway service appears registered. Stop it first.
+10:49:01 error Tip: clawdbot gateway stop
+10:49:01 error Or: schtasks /End /TN "Clawdbot Gateway"
+10:49:06 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+10:49:06 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=8 queueSize=0
+10:49:06 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+10:49:06 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=2 queueSize=0
+10:49:06 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=main durationMs=19 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."        
+10:49:06 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=session:agent:main:main durationMs=24 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."
+10:49:06 error Embedded agent failed before reply: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir.
+10:50:20 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+10:50:20 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=8 queueSize=0
+10:50:20 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+10:50:20 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=1 queueSize=0
+10:50:20 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=main durationMs=15 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."        
+10:50:20 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=session:agent:main:main durationMs=20 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."
+10:50:20 error Embedded agent failed before reply: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir.
+10:52:12 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:52:12 error Port 18789 is already in use.
+10:52:12 error - pid 61596: node.exe (127.0.0.1:18789)
+10:52:12 error - Another process is listening on this port.
+10:52:12 error Gateway service appears registered. Stop it first.
+10:52:12 error Tip: clawdbot gateway stop
+10:52:12 error Or: schtasks /End /TN "Clawdbot Gateway"
+10:52:25 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+10:52:25 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=8 queueSize=0
+10:52:25 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+10:52:25 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=1 queueSize=0
+10:52:25 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=main durationMs=14 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."        
+10:52:25 error diagnostic {"subsystem":"diagnostic"} lane task error: lane=session:agent:main:main durationMs=18 error="Error: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir."
+10:52:25 error Embedded agent failed before reply: No API key found for provider "minimax". Auth store: C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json (agentDir: C:\Users\Administrator\.clawdbot\agents\main\agent). Configure auth for this agent (clawdbot agents add <id>) or copy auth-profiles.json from the main agentDir.
+10:52:37 info gateway {"subsystem":"gateway"} device pairing auto-approved device=75727b9c9af81a1d95bf61025d755eafcd9907daf2d8b6c5c4ef6e32a3953725 role=operator
+10:55:19 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+10:55:20 error Port 18789 is already in use.
+10:55:20 error - pid 61596: node.exe (127.0.0.1:18789)
+10:55:20 error - Another process is listening on this port.
+10:55:20 error Gateway service appears registered. Stop it first.
+10:55:20 error Tip: clawdbot gateway stop
+10:55:20 error Or: schtasks /End /TN "Clawdbot Gateway"
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=6 queueSize=0
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=1 queueSize=0
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run start: runId=50bb2d66-d29a-455f-9f7b-655b640295e4 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 provider=minimax model=minimax-m2.1 thinking=off messageChannel=telegram
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} session state: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 sessionKey=unknown prev=idle new=processing reason="run_started" queueDepth=0
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} run registered: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 totalActive=1        
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run prompt start: runId=50bb2d66-d29a-455f-9f7b-655b640295e4 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run agent start: runId=50bb2d66-d29a-455f-9f7b-655b640295e4        
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run agent end: runId=50bb2d66-d29a-455f-9f7b-655b640295e4
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run prompt end: runId=50bb2d66-d29a-455f-9f7b-655b640295e4 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 durationMs=459
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} session state: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 sessionKey=unknown prev=processing new=idle reason="run_completed" queueDepth=0
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} run cleared: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 totalActive=0
+11:00:35 debug agent/embedded {"subsystem":"agent/embedded"} embedded run done: runId=50bb2d66-d29a-455f-9f7b-655b640295e4 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 durationMs=698 aborted=false
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane task done: lane=main durationMs=701 active=0 queued=0
+11:00:35 debug diagnostic {"subsystem":"diagnostic"} lane task done: lane=session:agent:main:main durationMs=705 active=0 queued=0       
+11:04:53 error Gateway failed to start: gateway already running (pid 61596); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+11:04:54 error Port 18789 is already in use.
+11:04:54 error - pid 61596: node.exe (127.0.0.1:18789)
+11:04:54 error - Another process is listening on this port.
+11:04:54 error Gateway service appears registered. Stop it first.
+11:04:54 error Tip: clawdbot gateway stop
+11:04:54 error Or: schtasks /End /TN "Clawdbot Gateway"
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=session:agent:main:main queueSize=1
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=session:agent:main:main waitMs=6 queueSize=0
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} lane enqueue: lane=main queueSize=1
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} lane dequeue: lane=main waitMs=1 queueSize=0
+11:05:20 debug agent/embedded {"subsystem":"agent/embedded"} embedded run start: runId=48c23784-bc62-4251-a6c0-57851705ab79 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 provider=minimax model=minimax-m2.1 thinking=off messageChannel=telegram
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} session state: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 sessionKey=unknown prev=idle new=processing reason="run_started" queueDepth=0
+11:05:20 debug diagnostic {"subsystem":"diagnostic"} run registered: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 totalActive=1        
+11:05:20 debug agent/embedded {"subsystem":"agent/embedded"} embedded run prompt start: runId=48c23784-bc62-4251-a6c0-57851705ab79 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60
+11:05:20 debug agent/embedded {"subsystem":"agent/embedded"} embedded run agent start: runId=48c23784-bc62-4251-a6c0-57851705ab79        
+11:05:21 debug agent/embedded {"subsystem":"agent/embedded"} embedded run agent end: runId=48c23784-bc62-4251-a6c0-57851705ab79
+11:05:21 debug agent/embedded {"subsystem":"agent/embedded"} embedded run prompt end: runId=48c23784-bc62-4251-a6c0-57851705ab79 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 durationMs=360
+11:05:21 debug diagnostic {"subsystem":"diagnostic"} session state: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 sessionKey=unknown prev=processing new=idle reason="run_completed" queueDepth=0
+11:05:21 debug diagnostic {"subsystem":"diagnostic"} run cleared: sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 totalActive=0
+11:05:21 debug agent/embedded {"subsystem":"agent/embedded"} embedded run done: runId=48c23784-bc62-4251-a6c0-57851705ab79 sessionId=6230b6b6-5d28-4e5f-93a9-c63e9aefbb60 durationMs=391 aborted=false
+11:05:21 debug diagnostic {"subsystem":"diagnostic"} lane task done: lane=main durationMs=394 active=0 queued=0
+11:05:21 debug diagnostic {"subsystem":"diagnostic"} lane task done: lane=session:agent:main:main durationMs=397 active=0 queued=0       
+11:08:39 info Config        : C:\Users\Administrator\.clawdbot\clawdbot.json
+11:08:39 info Agent dir     : C:\Users\Administrator\.clawdbot\agents\main\agent
+11:08:39 info Default       : minimax/minimax-m2.1
+11:08:39 info Fallbacks (0) : -
+11:08:39 info Image model   : -
+11:08:39 info Image fallbacks (0): -
+11:08:39 info Aliases (0)   : -
+11:08:39 info Configured models (0): all
+11:08:39 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T11:08:39.043Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T11:08:39.043Z"}
+11:08:39 info Auth overview
+11:08:39 info Auth store    : C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json
+11:08:39 info Shell env     : off
+11:08:39 info Providers w/ OAuth/tokens (3): anthropic (1), openai-codex (1), qwen-portal (1)
+11:08:39 info - anthropic effective=profiles:C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json | profiles=1 (oauth=1, token=0, api_key=0) | anthropic:claude-cli=OAuth
+11:08:39 info - minimax effective=profiles:C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json | profiles=1 (oauth=0, token=0, api_key=1) | minimax:default=eyJhbGci...4yB7C32A | env=eyJhbGci...4yB7C32A | source=env: MINIMAX_API_KEY
+11:08:39 info - openai effective=env:sk_U7vFz...Gdyb3FYU | env=sk_U7vFz...Gdyb3FYU | source=env: OPENAI_API_KEY
+11:08:39 info - openai-codex effective=profiles:C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json | profiles=1 (oauth=1, token=0, api_key=0) | openai-codex:codex-cli=OAuth
+11:08:39 info - qwen-portal effective=profiles:C:\Users\Administrator\.clawdbot\agents\main\agent\auth-profiles.json | profiles=1 (oauth=1, token=0, api_key=0) | qwen-portal:qwen-cli=OAuth
+11:08:39 info {"0":"","_meta":{"runtime":"node","runtimeVersion":"22.14.0","hostname":"WIN-0VFN2S8ADCE","name":"clawdbot","date":"2026-01-26T11:08:39.046Z","logLevelId":3,"logLevelName":"INFO","path":{"fullFilePath":"file:///C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181:32","fileName":"console.js","fileNameWithLine":"console.js:181","fileColumn":"32","fileLine":"181","filePath":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js","filePathWithLine":"/C:/Users/Administrator/Desktop/New%20folder/clawdbot/dist/logging/console.js:181","method":"console.log"}},"time":"2026-01-26T11:08:39.046Z"}
+11:08:39 info OAuth/token status
+11:08:39 info agents/auth-profiles {"subsystem":"agents/auth-profiles"} {"expires":"2026-01-26T19:03:39.546Z"} wrote refreshed credentials to claude cli file
+11:08:42 info - anthropic
+11:08:42 info   - anthropic:claude-cli expired expires in 0m (claude-cli)
+11:08:42 info - openai-codex usage: 5h 65% left ⏱1h 30m · Day 45% left ⏱1h 37m
+11:08:42 info   - openai-codex:codex-cli expired expires in 0m (codex-cli)
+11:08:42 info - qwen-portal
+11:08:42 info   - qwen-portal:qwen-cli expired expires in 0m
