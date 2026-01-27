@@ -1,0 +1,25 @@
+{
+  "id": "silent-divers-chaweng",
+  "slug": "silent-divers-chaweng",
+  "name": "Silent Divers",
+  "category": "diving-snorkeling",
+  "description": "PADI 5-Star Dive Center with over 10 years experience. Daily dive trips, PADI courses from beginner to professional levels, snorkeling tours to Sail Rock, Koh Tao, Ang Thong Marine Park.",
+  "short_description": "PADI 5-Star Dive Center with over 10 years experience. Daily dive trips, PADI courses from beginner to professional levels, snorkeling tours to Sail R...",
+  "location": {
+    "area": "chaweng",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://silentdivers.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://silentdivers.com"
+}

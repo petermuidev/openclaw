@@ -1,0 +1,339 @@
+{
+  "listings": [
+    {
+      "id": "001",
+      "slug": "coral-dive-center-chaweng",
+      "name": "Coral Dive Center",
+      "category": "diving-snorkeling",
+      "description": "Professional PADI dive center offering scuba diving courses, fun dives, and snorkeling trips around Koh Samui and nearby islands. Experienced instructors, small group sizes, and quality equipment.",
+      "short_description": "PADI certified dive center in Chaweng with daily trips to the best dive sites.",
+      "location": {
+        "area": "chaweng",
+        "address": "123/45 Chaweng Beach Road, Chaweng, Koh Samui",
+        "coordinates": { "lat": 9.5332, "lng": 100.0665 }
+      },
+      "itinerary": {
+        "duration": "Full Day (8:00 AM - 4:00 PM)",
+        "highlights": ["Coral reefs", "Tropical fish", "Equipment included", "Lunch provided"],
+        "schedule": "Pickup from hotel, transfer to dive boat, 2 dives, lunch, return",
+        "start_times": ["8:00 AM"],
+        "days_operated": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "inclusions": ["Hotel pickup/drop-off", "Dive equipment", "2 dives", "Lunch", "Insurance"],
+        "exclusions": ["Personal expenses", "Underwater camera rental"],
+        "what_to_bring": ["Swimsuit", "Towel", "Sunscreen", "Change of clothes"]
+      },
+      "pricing": {
+        "adult": 3500,
+        "child": null,
+        "currency": "THB",
+        "discount_available": true,
+        "discount_percentage": 10
+      },
+      "owner": {
+        "name": "Somsak Chaiyasit",
+        "company": "Coral Dive Center Co., Ltd.",
+        "license_number": "55/01234",
+        "verified": true,
+        "years_in_business": 12
+      },
+      "contact": {
+        "phone": "+66 77 123 456",
+        "email": "info@coraldivethailand.com",
+        "website": "https://coraldivethailand.com",
+        "line_id": "coraldivethailand",
+        "facebook": "https://facebook.com/coraldivethailand"
+      },
+      "media": {
+        "hero_image": "/images/listings/coral-dive-hero.jpg",
+        "gallery": ["/images/listings/coral-dive-1.jpg", "/images/listings/coral-dive-2.jpg"]
+      },
+      "reviews": {
+        "rating": 4.8,
+        "count": 156,
+        "google_rating": 4.9,
+        "tripadvisor_rating": 4.7
+      },
+      "tags": ["PADI", "scuba diving", "snorkeling", "courses"],
+      "highlights": ["PADI certified", "Small groups", "English speaking", "Quality equipment"],
+      "status": "verified",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://coraldivethailand.com"
+    },
+    {
+      "id": "002",
+      "slug": "ang-thong-maritime-park-tours",
+      "name": "Ang Thong Maritime Park Tours",
+      "category": "island-hopping",
+      "description": "Explore the stunning Ang Thong Maritime Park with daily boat trips. Visit viewpoints, kayaking, snorkeling, and beach relaxation on pristine islands. Professional guides and comfortable speedboats.",
+      "short_description": "Daily tours to Ang Thong Marine Park with kayaking and snorkeling.",
+      "location": {
+        "area": "nathon",
+        "address": "Maenam Pier, Nathon, Koh Samui",
+        "coordinates": { "lat": 9.5368, "lng": 99.9342 }
+      },
+      "itinerary": {
+        "duration": "Full Day (8:00 AM - 5:00 PM)",
+        "highlights": ["Viewpoint climb", "Kayaking", "Snorkeling", "Beach BBQ lunch"],
+        "schedule": "Hotel pickup, boat to Ang Thong, activities, lunch, return",
+        "start_times": ["7:30 AM"],
+        "days_operated": ["Tuesday", "Thursday", "Saturday"],
+        "inclusions": ["Hotel pickup/drop-off", "Speedboat transfer", "Kayak rental", "Snorkel gear", "Lunch", "Guide"],
+        "exclusions": ["National park fee (300 THB)", "Alcoholic drinks"],
+        "what_to_bring": ["Swimsuit", "Towel", "Sunscreen", "Hiking shoes", "Camera"]
+      },
+      "pricing": {
+        "adult": 2200,
+        "child": 1500,
+        "currency": "THB",
+        "discount_available": false
+      },
+      "owner": {
+        "name": "Somchai Rattanamongkol",
+        "company": "Samui Sea Tours Co., Ltd.",
+        "verified": true,
+        "years_in_business": 8
+      },
+      "contact": {
+        "phone": "+66 77 456 789",
+        "email": "booking@angthongtours.com",
+        "website": "https://angthongtourssamui.com",
+        "line_id": "angthongtours",
+        "facebook": "https://facebook.com/angthongtourssamui"
+      },
+      "media": {
+        "hero_image": "/images/listings/ang-thong-hero.jpg",
+        "gallery": ["/images/listings/ang-thong-1.jpg", "/images/listings/ang-thong-2.jpg"]
+      },
+      "reviews": {
+        "rating": 4.6,
+        "count": 89,
+        "google_rating": 4.7
+      },
+      "tags": ["Ang Thong", "island hopping", "kayaking", "snorkeling"],
+      "highlights": ["Speedboat", "Small groups", "Experienced guides", "Beach BBQ"],
+      "status": "published",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://angthongtourssamui.com"
+    },
+    {
+      "id": "003",
+      "slug": "samui-cooking-classes",
+      "name": "Samui Thai Cooking Classes",
+      "category": "food-tours",
+      "description": "Learn to cook authentic Thai cuisine with market visit, hands-on cooking, and dining experience. Choose from half-day or full-day classes with multiple cuisine options.",
+      "short_description": "Hands-on Thai cooking classes with market tour in Lamai.",
+      "location": {
+        "area": "lamai",
+        "address": "78/2 Moo 3, Lamai Beach, Koh Samui",
+        "coordinates": { "lat": 9.4599, "lng": 100.0535 }
+      },
+      "itinerary": {
+        "duration": "Half Day (9:00 AM - 1:00 PM) or Full Day (9:00 AM - 3:00 PM)",
+        "highlights": ["Local market tour", "4-8 Thai dishes", "Recipe book", "Meal"],
+        "schedule": "Market tour, cooking demonstration, hands-on cooking, dining",
+        "start_times": ["9:00 AM"],
+        "days_operated": ["Daily"],
+        "inclusions": ["Market tour", "Ingredients", "Recipe book", "Meal", "Certificate"],
+        "exclusions": ["Personal expenses"],
+        "what_to_bring": ["Appetite", "Notebook"]
+      },
+      "pricing": {
+        "adult": 1500,
+        "child": 1000,
+        "currency": "THB",
+        "discount_available": true,
+        "discount_percentage": 15
+      },
+      "owner": {
+        "name": "Noi Thanom",
+        "company": "Samui Culinary School Co., Ltd.",
+        "verified": true,
+        "years_in_business": 6
+      },
+      "contact": {
+        "phone": "+66 77 789 012",
+        "email": "info@samuicooking.com",
+        "website": "https://samuicooking.com",
+        "line_id": "samuicooking",
+        "facebook": "https://facebook.com/samuicookingclass"
+      },
+      "media": {
+        "hero_image": "/images/listings/cooking-hero.jpg",
+        "gallery": ["/images/listings/cooking-1.jpg", "/images/listings/cooking-2.jpg"]
+      },
+      "reviews": {
+        "rating": 4.9,
+        "count": 203,
+        "google_rating": 5.0,
+        "tripadvisor_rating": 4.9
+      },
+      "tags": ["cooking class", "Thai food", "market tour", "hands-on"],
+      "highlights": ["Market tour", "Small groups", "Recipe book", "Certificate"],
+      "status": "published",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://samuicooking.com"
+    },
+    {
+      "id": "004",
+      "slug": "elephant-jungle-sanctuary",
+      "name": "Elephant Jungle Sanctuary Samui",
+      "category": "adventure",
+      "description": "Ethical elephant sanctuary offering half-day and full-day experiences with rescued elephants. Walk with elephants, feed them, and learn about conservation in a responsible environment.",
+      "short_description": "Ethical elephant sanctuary with walking tours and feeding experiences.",
+      "location": {
+        "area": "taling-ngam",
+        "address": "51/4 Moo 2, Taling Ngam, Koh Samui",
+        "coordinates": { "lat": 9.4142, "lng": 99.9591 }
+      },
+      "itinerary": {
+        "duration": "Half Day (8:00 AM - 12:00 PM) or Full Day (8:00 AM - 3:00 PM)",
+        "highlights": ["Walk with elephants", "Feeding", "Mud spa", "Bath time", "Educational talk"],
+        "schedule": "Hotel pickup, introduction, walk with elephants, feeding, mud spa, bathe, lunch (full day only), return",
+        "start_times": ["8:00 AM"],
+        "days_operated": ["Daily"],
+        "inclusions": ["Hotel pickup/drop-off", "Guide", "Food for elephants", "Traditional Thai lunch (full day)"],
+        "exclusions": ["Personal expenses", "Photos with elephants (optional 500 THB)"],
+        "what_to_bring": ["Swimsuit", "Towel", "Sunscreen", "Insect repellent", "Change of clothes"]
+      },
+      "pricing": {
+        "adult": 2500,
+        "child": 1500,
+        "currency": "THB",
+        "discount_available": true,
+        "discount_percentage": 10
+      },
+      "owner": {
+        "name": "Phuket Elephant Sanctuary Group",
+        "company": "Elephant Jungle Sanctuary Samui Co., Ltd.",
+        "license_number": "63/55678",
+        "verified": true,
+        "years_in_business": 4
+      },
+      "contact": {
+        "phone": "+66 95 678 9012",
+        "email": "samui@elephantsanctuary.co.th",
+        "website": "https://elephantsanctuarysamui.com",
+        "line_id": "ejs_samui",
+        "facebook": "https://facebook.com/ElephantJungleSanctuarySamui"
+      },
+      "media": {
+        "hero_image": "/images/listings/elephant-hero.jpg",
+        "gallery": ["/images/listings/elephant-1.jpg", "/images/listings/elephant-2.jpg"]
+      },
+      "reviews": {
+        "rating": 4.7,
+        "count": 312,
+        "google_rating": 4.8,
+        "tripadvisor_rating": 4.7
+      },
+      "tags": ["elephant", "sanctuary", "ethical", "wildlife", "conservation"],
+      "highlights": ["Ethical treatment", "Small groups", "Educational", "Beautiful location"],
+      "status": "published",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://elephantsanctuarysamui.com"
+    },
+    {
+      "id": "005",
+      "slug": "health-land-spa-chaweng",
+      "name": "Health Land Spa & Massage",
+      "category": "wellness-spa",
+      "description": "One of Koh Samui's most respected spa centers offering traditional Thai massage, aromatherapy, body treatments, and holistic wellness programs in a tranquil garden setting.",
+      "short_description": "Professional spa and massage center with traditional Thai treatments.",
+      "location": {
+        "area": "chaweng",
+        "address": "208/1 Chaweng Beach Road, Chaweng, Koh Samui",
+        "coordinates": { "lat": 9.5350, "lng": 100.0650 }
+      },
+      "itinerary": null,
+      "pricing": {
+        "adult": 500,
+        "currency": "THB",
+        "discount_available": true,
+        "discount_percentage": 15
+      },
+      "owner": {
+        "name": "Wanna Srisuk",
+        "company": "Health Land Spa Co., Ltd.",
+        "verified": true,
+        "years_in_business": 10
+      },
+      "contact": {
+        "phone": "+66 77 234 567",
+        "email": "info@healthlandspasamui.com",
+        "website": "https://healthlandspasamui.com",
+        "line_id": "healthlandsamui",
+        "facebook": "https://facebook.com/HealthLandSpaSamui"
+      },
+      "media": {
+        "hero_image": "/images/listings/health-land-hero.jpg",
+        "gallery": ["/images/listings/health-land-1.jpg"]
+      },
+      "reviews": {
+        "rating": 4.6,
+        "count": 178,
+        "google_rating": 4.7
+      },
+      "tags": ["spa", "massage", "Thai massage", "aromatherapy", "wellness"],
+      "highlights": ["Professional therapists", "Clean facilities", "Reasonable prices", "Good location"],
+      "status": "published",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://healthlandspasamui.com"
+    },
+    {
+      "id": "006",
+      "slug": "samui-airport-transfers",
+      "name": "Samui Private Transfers",
+      "category": "transport",
+      "description": "Reliable private airport transfers and island transportation services. Sedan, minivan, and VIP options available with professional English-speaking drivers.",
+      "short_description": "Private airport transfers and island transportation services.",
+      "location": {
+        "area": "big-buddha",
+        "address": "Airport Area, Big Buddha, Koh Samui",
+        "coordinates": { "lat": 9.5761, "lng": 100.0338 }
+      },
+      "itinerary null": null,
+      "pricing": {
+        "adult": 600,
+        "currency": "THB",
+        "discount_available": false
+      },
+      "owner": {
+        "name": "Krit Srisakda",
+        "company": "Samui Transport Services Co., Ltd.",
+        "verified": true,
+        "years_in_business": 7
+      },
+      "contact": {
+        "phone": "+66 86 123 4567",
+        "email": "booking@samuitransfers.com",
+        "website": "https://samuitransfers.com",
+        "line_id": "samuitransfers",
+        "facebook": "https://facebook.com/samuitransfers"
+      },
+      "media": {
+        "hero_image": "/images/listings/transfer-hero.jpg"
+      },
+      "reviews": {
+        "rating": 4.8,
+        "count": 245,
+        "google_rating": 4.9
+      },
+      "tags": ["airport transfer", "private taxi", "minivan", "VIP transport"],
+      "highlights": ["Flight tracking", "English drivers", "Fixed prices", "24/7 service"],
+      "status": "published",
+      "created_at": "2026-01-27T10:00:00Z",
+      "updated_at": "2026-01-27T10:00:00Z",
+      "source_url": "https://samuitransfers.com"
+    }
+  ],
+  "metadata": {
+    "total": 6,
+    "last_updated": "2026-01-27T10:00:00Z",
+    "version": "1.0"
+  }
+}

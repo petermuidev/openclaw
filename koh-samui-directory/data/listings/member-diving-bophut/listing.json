@@ -1,0 +1,25 @@
+{
+  "id": "member-diving-bophut",
+  "slug": "member-diving-bophut",
+  "name": "Member Diving",
+  "category": "diving-snorkeling",
+  "description": "Swiss-managed SSI dive center. Largest and most comfortable dive boat on Koh Samui. Small groups, multilingual instructors (EN/TH/DE).",
+  "short_description": "Swiss-managed SSI dive center. Largest and most comfortable dive boat on Koh Samui. Small groups, multilingual instructors (EN/TH/DE)....",
+  "location": {
+    "area": "bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 80 149 0444 (EN/TH), +66 86 773 9762 (DE/EN)",
+    "line": "",
+    "email": "",
+    "website": "https://member-diving.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://member-diving.com"
+}

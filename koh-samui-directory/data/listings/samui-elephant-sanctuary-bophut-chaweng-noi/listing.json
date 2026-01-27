@@ -1,0 +1,25 @@
+{
+  "id": "samui-elephant-sanctuary-bophut-chaweng-noi",
+  "slug": "samui-elephant-sanctuary-bophut-chaweng-noi",
+  "name": "Samui Elephant Sanctuary",
+  "category": "adventure",
+  "description": "Leading ethical elephant sanctuary, Best Practice Elephant Venue by World Animal Protection. Half-day ethical tours, feeding, walking with rescued elephants. No riding or shows.",
+  "short_description": "Leading ethical elephant sanctuary, Best Practice Elephant Venue by World Animal Protection. Half-day ethical tours, feeding, walking with rescued ele...",
+  "location": {
+    "area": "bophut-chaweng-noi",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 95 269 8343",
+    "line": "",
+    "email": "info@samuielephantsanctuary.org, marketing@samuielephantsanctuary.org",
+    "website": "https://www.samuielephantsanctuary.org",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.samuielephantsanctuary.org"
+}

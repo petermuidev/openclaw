@@ -1,0 +1,25 @@
+{
+  "id": "jungle-kitchen-bophut",
+  "slug": "jungle-kitchen-bophut",
+  "name": "Jungle Kitchen",
+  "category": "food-tours",
+  "description": "Authentic Thai cooking in peaceful jungle setting near Fisherman's Village. Evening classes (5-9 PM), max 8 participants, organic garden, Koh Phangan views.",
+  "short_description": "Authentic Thai cooking in peaceful jungle setting near Fisherman's Village. Evening classes (5-9 PM), max 8 participants, organic garden, Koh Phangan ...",
+  "location": {
+    "area": "bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://junglekitchensamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://junglekitchensamui.com"
+}

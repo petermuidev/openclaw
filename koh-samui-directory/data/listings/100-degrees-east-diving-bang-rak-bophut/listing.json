@@ -1,0 +1,25 @@
+{
+  "id": "100-degrees-east-diving-bang-rak-bophut",
+  "slug": "100-degrees-east-diving-bang-rak-bophut",
+  "name": "100 Degrees East Diving",
+  "category": "diving-snorkeling",
+  "description": "PADI 5-Star Dive Centre, family-owned since 2004. Diving, snorkeling tours, and private charters to Ang Thong Marine Park and Koh Tao.",
+  "short_description": "PADI 5-Star Dive Centre, family-owned since 2004. Diving, snorkeling tours, and private charters to Ang Thong Marine Park and Koh Tao....",
+  "location": {
+    "area": "bang-rak-bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 77 423 936",
+    "line": "",
+    "email": "Via website contact form",
+    "website": "https://www.100degreeseast.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.100degreeseast.com"
+}

@@ -1,0 +1,39 @@
+{
+  "category": "transport",
+  "timestamp": "2026-01-27T14:02:32.251Z",
+  "count": 4,
+  "operators": [
+    {
+      "name": "Klook Airport Transfers",
+      "website": "https://www.klook.com/en-US/airport-transfers/service/usm-samui-airport/",
+      "description": "Private cars, taxis, limos, shared vans. Professional drivers, customizable options like child seats.",
+      "area": "airport-transfer",
+      "slug": "klook-airport-transfers-airport-transfer",
+      "status": "researched"
+    },
+    {
+      "name": "Samui Airport Online",
+      "website": "https://www.samuiairportonline.com/transportation/",
+      "description": "Private cars (up to 4 passengers), minivans (up to 6), or shared minivans. Book online or at airport arrival hall counter.",
+      "area": "airport-transfer",
+      "slug": "samui-airport-online-airport-transfer",
+      "status": "researched"
+    },
+    {
+      "name": "Samui Private Transfers",
+      "website": "https://samuitransfers.com",
+      "description": "Reliable private airport transfers and island transportation services. Sedan, minivan, and VIP options available with professional English-speaking drivers.",
+      "area": "big-buddha",
+      "slug": "samui-airport-transfers",
+      "status": "researched"
+    },
+    {
+      "name": "Suntransfers",
+      "website": "https://www.suntransfers.com/koh-samui-airport",
+      "description": "Private taxi and car transfers from Koh Samui Airport. Door-to-door service, meet-and-greet. From €13.91 for private taxi, €26.22 for minivan.",
+      "area": "airport-transfer",
+      "slug": "suntransfers-airport-transfer",
+      "status": "researched"
+    }
+  ]
+}

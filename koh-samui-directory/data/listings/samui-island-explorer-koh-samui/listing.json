@@ -1,0 +1,25 @@
+{
+  "id": "samui-island-explorer-koh-samui",
+  "slug": "samui-island-explorer-koh-samui",
+  "name": "Samui Island Explorer",
+  "category": "island-hopping",
+  "description": "Tour agent offering private and group island hopping tours to Angthong National Marine Park, Koh Phangan, Koh Tao, Koh Madsum, Koh Taen, Koh Rap. Luxury yachts, VIP speedboats.",
+  "short_description": "Tour agent offering private and group island hopping tours to Angthong National Marine Park, Koh Phangan, Koh Tao, Koh Madsum, Koh Taen, Koh Rap. Luxu...",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://www.samuiislandexplorer.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.samuiislandexplorer.com"
+}

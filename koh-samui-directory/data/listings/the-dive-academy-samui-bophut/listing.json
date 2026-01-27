@@ -1,0 +1,25 @@
+{
+  "id": "the-dive-academy-samui-bophut",
+  "slug": "the-dive-academy-samui-bophut",
+  "name": "The Dive Academy Samui",
+  "category": "diving-snorkeling",
+  "description": "PADI 5-Star Instructor Development Centre (established 2002). Full range of courses from beginner to instructor level. Professional training in small groups.",
+  "short_description": "PADI 5-Star Instructor Development Centre (established 2002). Full range of courses from beginner to instructor level. Professional training in small ...",
+  "location": {
+    "area": "bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 92 464 3264",
+    "line": "",
+    "email": "info@thediveacademysamui.com",
+    "website": "https://thediveacademysamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://thediveacademysamui.com"
+}

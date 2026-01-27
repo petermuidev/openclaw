@@ -1,0 +1,72 @@
+[
+  {
+    "id": "chaweng",
+    "name": "Chaweng",
+    "slug": "chaweng",
+    "coordinates": { "lat": 9.5332, "lng": 100.0665 },
+    "description": "The main tourist hub with the longest beach on Koh Samui. Lots of nightlife, restaurants, and shopping."
+  },
+  {
+    "id": "lamai",
+    "name": "Lamai",
+    "slug": "lamai",
+    "coordinates": { "lat": 9.4599, "lng": 100.0535 },
+    "description": "Second largest town, known for spa and wellness centers. More relaxed atmosphere than Chaweng."
+  },
+  {
+    "id": "bophut",
+    "name": "Bophut (Fisherman's Village)",
+    "slug": "bophut",
+    "coordinates": { "lat": 9.5604, "lng": 100.0334 },
+    "description": "Charming fishing village with French colonial architecture. Great restaurants and boutique hotels."
+  },
+  {
+    "id": "maenam",
+    "name": "Maenam",
+    "slug": "maenam",
+    "coordinates": { "lat": 9.5718, "lng": 100.0426 },
+    "description": "Peaceful northern beach with long stretches of sand. Good for families and digital nomads."
+  },
+  {
+    "id": "choeng-mon",
+    "name": "Choeng Mon",
+    "slug": "choeng-mon",
+    "coordinates": { "lat": 9.5514, "lng": 100.0816 },
+    "description": "Upscale area with beach clubs and luxury resorts. Small but beautiful beach."
+  },
+  {
+    "id": "big-buddha",
+    "name": "Big Buddha Beach",
+    "slug": "big-buddha",
+    "coordinates": { "lat": 9.5761, "lng": 100.0338 },
+    "description": "Named after the iconic Big Buddha temple nearby. Convenient location near the airport."
+  },
+  {
+    "id": "taling-ngam",
+    "name": "Taling Ngam",
+    "slug": "taling-ngam",
+    "coordinates": { "lat": 9.4142, "lng": 99.9591 },
+    "description": "Southwest coast with stunning sunset views. Luxury resorts and pristine nature."
+  },
+  {
+    "id": "nathon",
+    "name": "Nathon",
+    "slug": "nathon",
+    "coordinates": { "lat": 9.5368, "lng": 99.9342 },
+    "description": "Capital of Koh Samui. Main ferry terminal for connections to mainland and other islands."
+  },
+  {
+    "id": "lipa-noi",
+    "name": "Lipa Noi",
+    "slug": "lipa-noi",
+    "coordinates": { "lat": 9.4713, "lng": 99.9101 },
+    "description": "West coast with beautiful sunsets and family-friendly beach. Quieter area."
+  },
+  {
+    "id": "bang-por",
+    "name": "Bang Por",
+    "slug": "bang-por",
+    "coordinates": { "lat": 9.4991, "lng": 99.9767 },
+    "description": "Northern coast with laid-back vibe. Popular with expats and long-term travelers."
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "id": "002",
+  "slug": "ang-thong-maritime-park-tours",
+  "name": "Ang Thong Maritime Park Tours",
+  "category": "island-hopping",
+  "description": "Explore the stunning Ang Thong Maritime Park with daily boat trips. Visit viewpoints, kayaking, snorkeling, and beach relaxation on pristine islands. Professional guides and comfortable speedboats.",
+  "short_description": "Daily tours to Ang Thong Marine Park with kayaking and snorkeling.",
+  "location": {
+    "area": "nathon",
+    "address": "Maenam Pier, Nathon, Koh Samui",
+    "coordinates": {
+      "lat": 9.5368,
+      "lng": 99.9342
+    }
+  },
+  "itinerary": {
+    "duration": "Full Day (8:00 AM - 5:00 PM)",
+    "highlights": [
+      "Viewpoint climb",
+      "Kayaking",
+      "Snorkeling",
+      "Beach BBQ lunch"
+    ],
+    "schedule": "Hotel pickup, boat to Ang Thong, activities, lunch, return",
+    "start_times": [
+      "7:30 AM"
+    ],
+    "days_operated": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "inclusions": [
+      "Hotel pickup/drop-off",
+      "Speedboat transfer",
+      "Kayak rental",
+      "Snorkel gear",
+      "Lunch",
+      "Guide"
+    ],
+    "exclusions": [
+      "National park fee (300 THB)",
+      "Alcoholic drinks"
+    ],
+    "what_to_bring": [
+      "Swimsuit",
+      "Towel",
+      "Sunscreen",
+      "Hiking shoes",
+      "Camera"
+    ]
+  },
+  "pricing": {
+    "adult": 2200,
+    "child": 1500,
+    "currency": "THB",
+    "discount_available": false
+  },
+  "owner": {
+    "name": "Somchai Rattanamongkol",
+    "company": "Samui Sea Tours Co., Ltd.",
+    "verified": true,
+    "years_in_business": 8
+  },
+  "contact": {
+    "phone": "+66 77 456 789",
+    "email": "booking@angthongtours.com",
+    "website": "https://angthongtourssamui.com",
+    "line_id": "angthongtours",
+    "facebook": "https://facebook.com/angthongtourssamui"
+  },
+  "media": {
+    "hero_image": "/images/listings/ang-thong-hero.jpg",
+    "gallery": [
+      "/images/listings/ang-thong-1.jpg",
+      "/images/listings/ang-thong-2.jpg"
+    ]
+  },
+  "reviews": {
+    "rating": 4.6,
+    "count": 89,
+    "google_rating": 4.7
+  },
+  "tags": [
+    "Ang Thong",
+    "island hopping",
+    "kayaking",
+    "snorkeling"
+  ],
+  "highlights": [
+    "Speedboat",
+    "Small groups",
+    "Experienced guides",
+    "Beach BBQ"
+  ],
+  "status": "published",
+  "created_at": "2026-01-27T10:00:00Z",
+  "updated_at": "2026-01-27T10:00:00Z",
+  "source_url": "https://angthongtourssamui.com"
+}

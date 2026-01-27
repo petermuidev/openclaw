@@ -1,0 +1,25 @@
+{
+  "id": "kamalaya-koh-samui-koh-samui",
+  "slug": "kamalaya-koh-samui-koh-samui",
+  "name": "Kamalaya Koh Samui",
+  "category": "wellness-spa",
+  "description": "Wellness sanctuary with 100+ therapies, yoga, meditation, private beach. Holistic wellness programs and detox retreats.",
+  "short_description": "Wellness sanctuary with 100+ therapies, yoga, meditation, private beach. Holistic wellness programs and detox retreats....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://kamalaya.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://kamalaya.com"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "001",
+  "slug": "coral-dive-center-chaweng",
+  "name": "Coral Dive Center",
+  "category": "diving-snorkeling",
+  "description": "Professional PADI dive center offering scuba diving courses, fun dives, and snorkeling trips around Koh Samui and nearby islands. Experienced instructors, small group sizes, and quality equipment.",
+  "short_description": "PADI certified dive center in Chaweng with daily trips to the best dive sites.",
+  "location": {
+    "area": "chaweng",
+    "address": "123/45 Chaweng Beach Road, Chaweng, Koh Samui",
+    "coordinates": {
+      "lat": 9.5332,
+      "lng": 100.0665
+    }
+  },
+  "itinerary": {
+    "duration": "Full Day (8:00 AM - 4:00 PM)",
+    "highlights": [
+      "Coral reefs",
+      "Tropical fish",
+      "Equipment included",
+      "Lunch provided"
+    ],
+    "schedule": "Pickup from hotel, transfer to dive boat, 2 dives, lunch, return",
+    "start_times": [
+      "8:00 AM"
+    ],
+    "days_operated": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "inclusions": [
+      "Hotel pickup/drop-off",
+      "Dive equipment",
+      "2 dives",
+      "Lunch",
+      "Insurance"
+    ],
+    "exclusions": [
+      "Personal expenses",
+      "Underwater camera rental"
+    ],
+    "what_to_bring": [
+      "Swimsuit",
+      "Towel",
+      "Sunscreen",
+      "Change of clothes"
+    ]
+  },
+  "pricing": {
+    "adult": 3500,
+    "child": null,
+    "currency": "THB",
+    "discount_available": true,
+    "discount_percentage": 10
+  },
+  "owner": {
+    "name": "Somsak Chaiyasit",
+    "company": "Coral Dive Center Co., Ltd.",
+    "license_number": "55/01234",
+    "verified": true,
+    "years_in_business": 12
+  },
+  "contact": {
+    "phone": "+66 77 123 456",
+    "email": "info@coraldivethailand.com",
+    "website": "https://coraldivethailand.com",
+    "line_id": "coraldivethailand",
+    "facebook": "https://facebook.com/coraldivethailand"
+  },
+  "media": {
+    "hero_image": "/images/listings/coral-dive-hero.jpg",
+    "gallery": [
+      "/images/listings/coral-dive-1.jpg",
+      "/images/listings/coral-dive-2.jpg"
+    ]
+  },
+  "reviews": {
+    "rating": 4.8,
+    "count": 156,
+    "google_rating": 4.9,
+    "tripadvisor_rating": 4.7
+  },
+  "tags": [
+    "PADI",
+    "scuba diving",
+    "snorkeling",
+    "courses"
+  ],
+  "highlights": [
+    "PADI certified",
+    "Small groups",
+    "English speaking",
+    "Quality equipment"
+  ],
+  "status": "verified",
+  "created_at": "2026-01-27T10:00:00Z",
+  "updated_at": "2026-01-27T10:00:00Z",
+  "source_url": "https://coraldivethailand.com"
+}

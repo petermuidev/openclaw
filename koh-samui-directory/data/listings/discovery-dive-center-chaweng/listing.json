@@ -1,0 +1,25 @@
+{
+  "id": "discovery-dive-center-chaweng",
+  "slug": "discovery-dive-center-chaweng",
+  "name": "Discovery Dive Center",
+  "category": "diving-snorkeling",
+  "description": "PADI 5-Star Dive Center operating 26+ years. Located at Amari Koh Samui Resort. Dive courses, fun dives, dive-and-stay packages.",
+  "short_description": "PADI 5-Star Dive Center operating 26+ years. Located at Amari Koh Samui Resort. Dive courses, fun dives, dive-and-stay packages....",
+  "location": {
+    "area": "chaweng",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 77 310 764, +66 952710017",
+    "line": "",
+    "email": "info@discoverydivers.com",
+    "website": "https://discoverydivers.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://discoverydivers.com"
+}

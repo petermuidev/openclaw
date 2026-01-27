@@ -1,0 +1,25 @@
+{
+  "id": "vikasa-vita-spa-koh-samui",
+  "slug": "vikasa-vita-spa-koh-samui",
+  "name": "Vikasa (Vita Spa)",
+  "category": "wellness-spa",
+  "description": "Yoga studio and spa. Thai massages, aromatherapy, herbal treatments, raw food café packages.",
+  "short_description": "Yoga studio and spa. Thai massages, aromatherapy, herbal treatments, raw food café packages....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://vikasa.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://vikasa.com"
+}

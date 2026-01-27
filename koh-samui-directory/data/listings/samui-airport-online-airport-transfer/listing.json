@@ -1,0 +1,25 @@
+{
+  "id": "samui-airport-online-airport-transfer",
+  "slug": "samui-airport-online-airport-transfer",
+  "name": "Samui Airport Online",
+  "category": "transport",
+  "description": "Private cars (up to 4 passengers), minivans (up to 6), or shared minivans. Book online or at airport arrival hall counter.",
+  "short_description": "Private cars (up to 4 passengers), minivans (up to 6), or shared minivans. Book online or at airport arrival hall counter....",
+  "location": {
+    "area": "airport-transfer",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://www.samuiairportonline.com/transportation/",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.samuiairportonline.com/transportation/"
+}

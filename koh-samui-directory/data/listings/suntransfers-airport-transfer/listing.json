@@ -1,0 +1,25 @@
+{
+  "id": "suntransfers-airport-transfer",
+  "slug": "suntransfers-airport-transfer",
+  "name": "Suntransfers",
+  "category": "transport",
+  "description": "Private taxi and car transfers from Koh Samui Airport. Door-to-door service, meet-and-greet. From €13.91 for private taxi, €26.22 for minivan.",
+  "short_description": "Private taxi and car transfers from Koh Samui Airport. Door-to-door service, meet-and-greet. From €13.91 for private taxi, €26.22 for minivan....",
+  "location": {
+    "area": "airport-transfer",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "Via website booking",
+    "website": "https://www.suntransfers.com/koh-samui-airport",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.suntransfers.com/koh-samui-airport"
+}

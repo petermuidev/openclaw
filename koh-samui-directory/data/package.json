@@ -1,0 +1,15 @@
+{
+  "name": "koh-samui-directory-data",
+  "version": "1.0.0",
+  "description": "Data layer for Koh Samui Travel Directory",
+  "scripts": {
+    "research": "node scripts/research.js",
+    "crawl": "node scripts/crawl.js",
+    "build": "node scripts/build.js",
+    "verify": "node scripts/verify.js",
+    "clean": "rm -rf data/operators/* data/listings/*",
+    "reset": "npm run clean && npm run research && npm run crawl && npm run build"
+  },
+  "keywords": ["koh-samui", "directory", "data"],
+  "license": "MIT"
+}

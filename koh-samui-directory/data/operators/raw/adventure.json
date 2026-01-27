@@ -1,0 +1,55 @@
+{
+  "category": "adventure",
+  "timestamp": "2026-01-27T14:02:32.251Z",
+  "count": 6,
+  "operators": [
+    {
+      "name": "Elephant Jungle Sanctuary Samui",
+      "website": "https://elephantsanctuarysamui.com",
+      "description": "Ethical elephant sanctuary offering half-day and full-day experiences with rescued elephants. Walk with elephants, feed them, and learn about conservation in a responsible environment.",
+      "area": "taling-ngam",
+      "slug": "elephant-jungle-sanctuary",
+      "status": "researched"
+    },
+    {
+      "name": "Jungle Quad",
+      "website": "https://junglequad.com",
+      "description": "2-4 hour ATV tours on exclusive tracks. Waterfalls, panoramic views, hotel transfers, safety-focused equipment.",
+      "area": "koh-samui",
+      "slug": "jungle-quad-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Lexi Adventures (Lexi ATV)",
+      "website": "https://lexiadventures.com",
+      "description": "Beginner-friendly ATV tours with new automatic ATVs. Hidden waterfalls, viewpoints, professional staff.",
+      "area": "koh-samui",
+      "slug": "lexi-adventures-lexi-atv-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Samui Elephant Sanctuary",
+      "website": "https://www.samuielephantsanctuary.org",
+      "description": "Leading ethical elephant sanctuary, Best Practice Elephant Venue by World Animal Protection. Half-day ethical tours, feeding, walking with rescued elephants. No riding or shows.",
+      "area": "bophut-chaweng-noi",
+      "slug": "samui-elephant-sanctuary-bophut-chaweng-noi",
+      "status": "researched"
+    },
+    {
+      "name": "Samui Quad Motor",
+      "website": "https://www.samuiquad.com/en/",
+      "description": "Mountain trail and jungle safari tours. Established since 2002, experienced guides for safety.",
+      "area": "koh-samui",
+      "slug": "samui-quad-motor-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Xquad Samui",
+      "website": "http://www.xquad-samui.com",
+      "description": "Jungle ATV/quad bike tours for beginners and experts. Secret waterfalls, mountain viewpoints, durian plantations. Small groups, Thai/Western guides.",
+      "area": "koh-samui",
+      "slug": "xquad-samui-koh-samui",
+      "status": "researched"
+    }
+  ]
+}

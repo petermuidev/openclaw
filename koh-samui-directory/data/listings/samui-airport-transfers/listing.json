@@ -1,0 +1,59 @@
+{
+  "id": "006",
+  "slug": "samui-airport-transfers",
+  "name": "Samui Private Transfers",
+  "category": "transport",
+  "description": "Reliable private airport transfers and island transportation services. Sedan, minivan, and VIP options available with professional English-speaking drivers.",
+  "short_description": "Private airport transfers and island transportation services.",
+  "location": {
+    "area": "big-buddha",
+    "address": "Airport Area, Big Buddha, Koh Samui",
+    "coordinates": {
+      "lat": 9.5761,
+      "lng": 100.0338
+    }
+  },
+  "itinerary null": null,
+  "pricing": {
+    "adult": 600,
+    "currency": "THB",
+    "discount_available": false
+  },
+  "owner": {
+    "name": "Krit Srisakda",
+    "company": "Samui Transport Services Co., Ltd.",
+    "verified": true,
+    "years_in_business": 7
+  },
+  "contact": {
+    "phone": "+66 86 123 4567",
+    "email": "booking@samuitransfers.com",
+    "website": "https://samuitransfers.com",
+    "line_id": "samuitransfers",
+    "facebook": "https://facebook.com/samuitransfers"
+  },
+  "media": {
+    "hero_image": "/images/listings/transfer-hero.jpg"
+  },
+  "reviews": {
+    "rating": 4.8,
+    "count": 245,
+    "google_rating": 4.9
+  },
+  "tags": [
+    "airport transfer",
+    "private taxi",
+    "minivan",
+    "VIP transport"
+  ],
+  "highlights": [
+    "Flight tracking",
+    "English drivers",
+    "Fixed prices",
+    "24/7 service"
+  ],
+  "status": "published",
+  "created_at": "2026-01-27T10:00:00Z",
+  "updated_at": "2026-01-27T10:00:00Z",
+  "source_url": "https://samuitransfers.com"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "legacy-spa-wellness-koh-samui",
+  "slug": "legacy-spa-wellness-koh-samui",
+  "name": "Legacy Spa & Wellness",
+  "category": "wellness-spa",
+  "description": "Premium indoor spa center with sauna, steam, massages for recovery and relaxation.",
+  "short_description": "Premium indoor spa center with sauna, steam, massages for recovery and relaxation....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://legacyspakohsamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://legacyspakohsamui.com"
+}

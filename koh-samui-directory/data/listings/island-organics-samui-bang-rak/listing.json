@@ -1,0 +1,25 @@
+{
+  "id": "island-organics-samui-bang-rak",
+  "slug": "island-organics-samui-bang-rak",
+  "name": "Island Organics Samui",
+  "category": "food-tours",
+  "description": "Farm-to-table organic cooking class led by Chef Lat. Harvest ingredients from organic micro-farm, cook 4 authentic Thai dishes. Vegan/vegetarian/gluten-free options.",
+  "short_description": "Farm-to-table organic cooking class led by Chef Lat. Harvest ingredients from organic micro-farm, cook 4 authentic Thai dishes. Vegan/vegetarian/glute...",
+  "location": {
+    "area": "bang-rak",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 62 526 6210 (EN), +66 88 385 1277 (TH), +66 89 731 6814",
+    "line": "",
+    "email": "booking@islandorganicssamui.com",
+    "website": "https://islandorganicssamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://islandorganicssamui.com"
+}

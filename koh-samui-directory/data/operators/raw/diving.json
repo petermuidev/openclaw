@@ -1,0 +1,63 @@
+{
+  "category": "diving",
+  "timestamp": "2026-01-27T14:02:32.249Z",
+  "count": 7,
+  "operators": [
+    {
+      "name": "100 Degrees East Diving",
+      "website": "https://www.100degreeseast.com",
+      "description": "PADI 5-Star Dive Centre, family-owned since 2004. Diving, snorkeling tours, and private charters to Ang Thong Marine Park and Koh Tao.",
+      "area": "bang-rak-bophut",
+      "slug": "100-degrees-east-diving-bang-rak-bophut",
+      "status": "researched"
+    },
+    {
+      "name": "Coral Dive Center",
+      "website": "https://coraldivethailand.com",
+      "description": "Professional PADI dive center offering scuba diving courses, fun dives, and snorkeling trips around Koh Samui and nearby islands. Experienced instructors, small group sizes, and quality equipment.",
+      "area": "chaweng",
+      "slug": "coral-dive-center-chaweng",
+      "status": "researched"
+    },
+    {
+      "name": "Discovery Dive Center",
+      "website": "https://discoverydivers.com",
+      "description": "PADI 5-Star Dive Center operating 26+ years. Located at Amari Koh Samui Resort. Dive courses, fun dives, dive-and-stay packages.",
+      "area": "chaweng",
+      "slug": "discovery-dive-center-chaweng",
+      "status": "researched"
+    },
+    {
+      "name": "IDC Samui",
+      "website": "https://idcsamui.com",
+      "description": "PADI 5-Star Instructor Development Center. Specializes in IDC, divemaster training, and professional certification. Part of Silent Divers pro level training team.",
+      "area": "chaweng",
+      "slug": "idc-samui-chaweng",
+      "status": "researched"
+    },
+    {
+      "name": "Member Diving",
+      "website": "https://member-diving.com",
+      "description": "Swiss-managed SSI dive center. Largest and most comfortable dive boat on Koh Samui. Small groups, multilingual instructors (EN/TH/DE).",
+      "area": "bophut",
+      "slug": "member-diving-bophut",
+      "status": "researched"
+    },
+    {
+      "name": "Silent Divers",
+      "website": "https://silentdivers.com",
+      "description": "PADI 5-Star Dive Center with over 10 years experience. Daily dive trips, PADI courses from beginner to professional levels, snorkeling tours to Sail Rock, Koh Tao, Ang Thong Marine Park.",
+      "area": "chaweng",
+      "slug": "silent-divers-chaweng",
+      "status": "researched"
+    },
+    {
+      "name": "The Dive Academy Samui",
+      "website": "https://thediveacademysamui.com",
+      "description": "PADI 5-Star Instructor Development Centre (established 2002). Full range of courses from beginner to instructor level. Professional training in small groups.",
+      "area": "bophut",
+      "slug": "the-dive-academy-samui-bophut",
+      "status": "researched"
+    }
+  ]
+}

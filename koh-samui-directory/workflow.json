@@ -1,0 +1,158 @@
+{
+  "name": "koh-samui-directory-pipeline",
+  "description": "Automated pipeline to research, crawl, and build Koh Samui travel directory. Searches for tour operators, extracts data, and generates static JSON listings.",
+  "steps": [
+    {
+      "id": "search_diving",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui diving schools PADI certified tour operators websites 2025"
+      }
+    },
+    {
+      "id": "search_snorkeling",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui snorkeling tours best operators websites"
+      }
+    },
+    {
+      "id": "search_island_hopping",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui island hopping Ang Thong Marine Park tour operators"
+      }
+    },
+    {
+      "id": "search_cooking",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui Thai cooking classes tour operators websites"
+      }
+    },
+    {
+      "id": "search_spa",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui spa massage wellness centers tour operators"
+      }
+    },
+    {
+      "id": "search_adventure",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui ATV adventure elephant sanctuary tour operators"
+      }
+    },
+    {
+      "id": "search_transport",
+      "task": "web_search",
+      "input": {
+        "query": "Koh Samui airport transfer private taxi car rental services"
+      }
+    },
+    {
+      "id": "consolidate_operators",
+      "task": "llm_task",
+      "input": {
+        "prompt": "Consolidate all search results into a single JSON array. Extract and merge unique operators from all search results. Format:\n\n[\n  {\n    \"name\": \"Operator Name\",\n    \"website\": \"https://...\",\n    \"category\": \"diving-snorkeling|island-hopping|food-tours|wellness-spa|adventure|transport\",\n    \"description\": \"Brief description\"\n  }\n]\n\nRemove duplicates based on website URL. Return ONLY valid JSON array, no markdown, no commentary.\n\nSearch Results:\n${search_diving.result}\n${search_snorkeling.result}\n${search_island_hopping.result}\n${search_cooking.result}\n${search_spa.result}\n${search_adventure.result}\n${search_transport.result}",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "website": { "type": "string", "pattern": "^https?://" },
+              "category": { "type": "string" },
+              "description": { "type": "string" }
+            },
+            "required": ["name", "website", "category"]
+          }
+        }
+      },
+      "dependsOn": ["search_diving", "search_snorkeling", "search_island_hopping", "search_cooking", "search_spa", "search_adventure", "search_transport"]
+    },
+    {
+      "id": "crawl_operators",
+      "task": "clawd_invoke",
+      "input": {
+        "tool": "bash",
+        "args": [
+          "cat",
+          "C:/Users/Administrator/Desktop/New folder/koh-samui-directory/data/operators_crawl.json"
+        ]
+      }
+    },
+    {
+      "id": "process_listings",
+      "task": "llm_task",
+      "input": {
+        "prompt": "Transform the crawled operator data into structured listing JSON. Each listing should include:\n\n{\n  \"id\": \"001\",\n  \"slug\": \"operator-name-lower\",\n  \"name\": \"Full Operator Name\",\n  \"category\": \"diving-snorkeling|island-hopping|food-tours|wellness-spa|adventure|transport\",\n  \"description\": \"Full description from website\",\n  \"short_description\": \"Brief 100-char description\",\n  \"location\": {\n    \"area\": \"chaweng|lamai|bophut|maenam|choeng-mon|big-buddha|taling-ngam|nathon|lipa-noi|bang-por\",\n    \"address\": \"Full address\",\n    \"coordinates\": { \"lat\": 9.5, \"lng\": 100.0 }\n  },\n  \"itinerary\": {\n    \"duration\": \"Full Day\",\n    \"highlights\": [\"highlight1\", \"highlight2\"],\n    \"schedule\": \"Pickup times, duration\",\n    \"inclusions\": [\"item1\", \"item2\"],\n    \"exclusions\": [\"item1\", \"item2\"]\n  },\n  \"pricing\": {\n    \"adult\": 1000,\n    \"child\": 500,\n    \"currency\": \"THB\"\n  },\n  \"owner\": {\n    \"name\": \"Owner/Contact name\",\n    \"company\": \"Company name\",\n    \"verified\": false\n  },\n  \"contact\": {\n    \"phone\": \"+66...\",\n    \"email\": \"email@example.com\",\n    \"website\": \"https://...\",\n    \"line_id\": \"line_id\"\n  },\n  \"media\": {\n    \"hero_image\": \"/images/listings/slug-hero.jpg\",\n    \"gallery\": []\n  },\n  \"reviews\": {\n    \"rating\": 4.5,\n    \"count\": 100\n  },\n  \"tags\": [\"tag1\", \"tag2\"],\n  \"status\": \"draft\"\n}\n\nReturn ONLY valid JSON array of listings. No markdown, no commentary.\n\nCrawled Data:\n${crawl_operators.result}",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "slug": { "type": "string" },
+              "name": { "type": "string" },
+              "category": { "type": "string" },
+              "description": { "type": "string" },
+              "short_description": { "type": "string" },
+              "location": { "type": "object" },
+              "itinerary": { "type": "object" },
+              "pricing": { "type": "object" },
+              "owner": { "type": "object" },
+              "contact": { "type": "object" },
+              "media": { "type": "object" },
+              "reviews": { "type": "object" },
+              "tags": { "type": "array", "items": { "type": "string" } },
+              "status": { "type": "string" }
+            }
+          }
+        }
+      },
+      "dependsOn": ["crawl_operators"]
+    },
+    {
+      "id": "generate_metadata",
+      "task": "llm_task",
+      "input": {
+        "prompt": "Generate metadata for the listings JSON. Return JSON object:\n\n{\n  \"total\": <count of listings>,\n  \"categories\": [<unique categories>],\n  \"areas\": [<unique areas>],\n  \"last_updated\": \"<ISO date>\",\n  \"version\": \"1.0\",\n  \"pricing_ranges\": {\n    \"diving-snorkeling\": { \"min\": 1500, \"max\": 5000, \"currency\": \"THB\" },\n    \"island-hopping\": { \"min\": 1200, \"max\": 3500, \"currency\": \"THB\" },\n    \"food-tours\": { \"min\": 1200, \"max\": 2500, \"currency\": \"THB\" },\n    \"wellness-spa\": { \"min\": 500, \"max\": 5000, \"currency\": \"THB\" },\n    \"adventure\": { \"min\": 1500, \"max\": 5000, \"currency\": \"THB\" },\n    \"transport\": { \"min\": 500, \"max\": 2000, \"currency\": \"THB\" }\n  }\n}\n\nListings:\n${process_listings.result}",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "total": { "type": "number" },
+            "categories": { "type": "array", "items": { "type": "string" } },
+            "areas": { "type": "array", "items": { "type": "string" } },
+            "last_updated": { "type": "string" },
+            "version": { "type": "string" },
+            "pricing_ranges": { "type": "object" }
+          }
+        }
+      },
+      "dependsOn": ["process_listings"]
+    },
+    {
+      "id": "finalize_json",
+      "task": "clawd_invoke",
+      "input": {
+        "tool": "bash",
+        "args": [
+          "echo",
+          "Writing final JSON..."
+        ]
+      }
+    }
+  ],
+  "registry": {
+    "web_search": {
+      "command": ["clawdbot", "agent", "--agent", "main", "--message", "Search for ${input.query}. Return results as JSON array with: name, website, description. Return ONLY JSON array, no markdown."],
+      "timeout": 60000
+    },
+    "clawd_invoke": {
+      "command": ["bash", "-c", "${input.command}"],
+      "timeout": 30000
+    }
+  }
+}

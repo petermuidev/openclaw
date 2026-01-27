@@ -1,0 +1,25 @@
+{
+  "id": "xquad-samui-koh-samui",
+  "slug": "xquad-samui-koh-samui",
+  "name": "Xquad Samui",
+  "category": "adventure",
+  "description": "Jungle ATV/quad bike tours for beginners and experts. Secret waterfalls, mountain viewpoints, durian plantations. Small groups, Thai/Western guides.",
+  "short_description": "Jungle ATV/quad bike tours for beginners and experts. Secret waterfalls, mountain viewpoints, durian plantations. Small groups, Thai/Western guides....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "http://www.xquad-samui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "http://www.xquad-samui.com"
+}

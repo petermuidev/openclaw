@@ -1,0 +1,25 @@
+{
+  "id": "idc-samui-chaweng",
+  "slug": "idc-samui-chaweng",
+  "name": "IDC Samui",
+  "category": "diving-snorkeling",
+  "description": "PADI 5-Star Instructor Development Center. Specializes in IDC, divemaster training, and professional certification. Part of Silent Divers pro level training team.",
+  "short_description": "PADI 5-Star Instructor Development Center. Specializes in IDC, divemaster training, and professional certification. Part of Silent Divers pro level tr...",
+  "location": {
+    "area": "chaweng",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://idcsamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://idcsamui.com"
+}

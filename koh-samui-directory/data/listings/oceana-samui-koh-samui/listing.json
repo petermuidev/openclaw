@@ -1,0 +1,25 @@
+{
+  "id": "oceana-samui-koh-samui",
+  "slug": "oceana-samui-koh-samui",
+  "name": "Oceana Samui",
+  "category": "island-hopping",
+  "description": "Luxury speedboat and yacht charters. Private and semi-private island hopping tours, dolphin spotting, sunset cruises. Official partner of 5-star Koh Samui resorts.",
+  "short_description": "Luxury speedboat and yacht charters. Private and semi-private island hopping tours, dolphin spotting, sunset cruises. Official partner of 5-star Koh S...",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://oceanasamui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://oceanasamui.com"
+}

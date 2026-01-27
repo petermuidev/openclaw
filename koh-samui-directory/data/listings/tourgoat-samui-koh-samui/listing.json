@@ -1,0 +1,25 @@
+{
+  "id": "tourgoat-samui-koh-samui",
+  "slug": "tourgoat-samui-koh-samui",
+  "name": "TourGoat Samui",
+  "category": "island-hopping",
+  "description": "Premium island hopping, snorkeling tours, adventure activities. Specializes in Ang Thong Marine Park, Koh Phangan, Koh Tao, Pig Island. German-speaking service.",
+  "short_description": "Premium island hopping, snorkeling tours, adventure activities. Specializes in Ang Thong Marine Park, Koh Phangan, Koh Tao, Pig Island. German-speakin...",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 83 502 1979",
+    "line": "",
+    "email": "",
+    "website": "https://tourgoat-samui.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://tourgoat-samui.com"
+}

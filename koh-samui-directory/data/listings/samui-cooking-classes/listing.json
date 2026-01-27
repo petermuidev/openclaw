@@ -1,0 +1,95 @@
+{
+  "id": "003",
+  "slug": "samui-cooking-classes",
+  "name": "Samui Thai Cooking Classes",
+  "category": "food-tours",
+  "description": "Learn to cook authentic Thai cuisine with market visit, hands-on cooking, and dining experience. Choose from half-day or full-day classes with multiple cuisine options.",
+  "short_description": "Hands-on Thai cooking classes with market tour in Lamai.",
+  "location": {
+    "area": "lamai",
+    "address": "78/2 Moo 3, Lamai Beach, Koh Samui",
+    "coordinates": {
+      "lat": 9.4599,
+      "lng": 100.0535
+    }
+  },
+  "itinerary": {
+    "duration": "Half Day (9:00 AM - 1:00 PM) or Full Day (9:00 AM - 3:00 PM)",
+    "highlights": [
+      "Local market tour",
+      "4-8 Thai dishes",
+      "Recipe book",
+      "Meal"
+    ],
+    "schedule": "Market tour, cooking demonstration, hands-on cooking, dining",
+    "start_times": [
+      "9:00 AM"
+    ],
+    "days_operated": [
+      "Daily"
+    ],
+    "inclusions": [
+      "Market tour",
+      "Ingredients",
+      "Recipe book",
+      "Meal",
+      "Certificate"
+    ],
+    "exclusions": [
+      "Personal expenses"
+    ],
+    "what_to_bring": [
+      "Appetite",
+      "Notebook"
+    ]
+  },
+  "pricing": {
+    "adult": 1500,
+    "child": 1000,
+    "currency": "THB",
+    "discount_available": true,
+    "discount_percentage": 15
+  },
+  "owner": {
+    "name": "Noi Thanom",
+    "company": "Samui Culinary School Co., Ltd.",
+    "verified": true,
+    "years_in_business": 6
+  },
+  "contact": {
+    "phone": "+66 77 789 012",
+    "email": "info@samuicooking.com",
+    "website": "https://samuicooking.com",
+    "line_id": "samuicooking",
+    "facebook": "https://facebook.com/samuicookingclass"
+  },
+  "media": {
+    "hero_image": "/images/listings/cooking-hero.jpg",
+    "gallery": [
+      "/images/listings/cooking-1.jpg",
+      "/images/listings/cooking-2.jpg"
+    ]
+  },
+  "reviews": {
+    "rating": 4.9,
+    "count": 203,
+    "google_rating": 5,
+    "tripadvisor_rating": 4.9
+  },
+  "tags": [
+    "cooking class",
+    "Thai food",
+    "market tour",
+    "hands-on"
+  ],
+  "highlights": [
+    "Market tour",
+    "Small groups",
+    "Recipe book",
+    "Certificate"
+  ],
+  "status": "published",
+  "created_at": "2026-01-27T10:00:00Z",
+  "updated_at": "2026-01-27T10:00:00Z",
+  "source_url": "https://samuicooking.com"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "oceans-elite-charters-koh-samui",
+  "slug": "oceans-elite-charters-koh-samui",
+  "name": "Oceans Elite Charters",
+  "category": "island-hopping",
+  "description": "Luxury yacht and speedboat charters. Island hopping to Ang Thong Marine Park, Koh Tao, Koh Phangan, Koh Tan, Pig Island. Private tours, sunset cruises, overnight charters.",
+  "short_description": "Luxury yacht and speedboat charters. Island hopping to Ang Thong Marine Park, Koh Tao, Koh Phangan, Koh Tan, Pig Island. Private tours, sunset cruises...",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "Via website contact form",
+    "website": "https://oceanselitecharters.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://oceanselitecharters.com"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "smiley-cook-bophut",
+  "slug": "smiley-cook-bophut",
+  "name": "Smiley Cook",
+  "category": "food-tours",
+  "description": "Popular Thai cooking class near Fisherman's Village. 4-hour class with market tour, hands-on cooking of 4 dishes plus dessert. Small groups (max 8), free hotel pickup.",
+  "short_description": "Popular Thai cooking class near Fisherman's Village. 4-hour class with market tour, hands-on cooking of 4 dishes plus dessert. Small groups (max 8), f...",
+  "location": {
+    "area": "bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 94 354 5034 (Bung), +66 91 935 3818 (Mong)",
+    "line": "0943545034",
+    "email": "bungrailay@hotmail.com",
+    "website": "https://www.smileycooksamui.com",
+    "facebook": "Smiley cook Thai Cooking Course Koh Samui"
+  },
+  "status": "draft",
+  "source_url": "https://www.smileycooksamui.com"
+}

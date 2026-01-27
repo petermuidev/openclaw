@@ -1,0 +1,25 @@
+{
+  "id": "klook-airport-transfers-airport-transfer",
+  "slug": "klook-airport-transfers-airport-transfer",
+  "name": "Klook Airport Transfers",
+  "category": "transport",
+  "description": "Private cars, taxis, limos, shared vans. Professional drivers, customizable options like child seats.",
+  "short_description": "Private cars, taxis, limos, shared vans. Professional drivers, customizable options like child seats....",
+  "location": {
+    "area": "airport-transfer",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://www.klook.com/en-US/airport-transfers/service/usm-samui-airport/",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.klook.com/en-US/airport-transfers/service/usm-samui-airport/"
+}

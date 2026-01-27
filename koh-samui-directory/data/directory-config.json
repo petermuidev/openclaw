@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "date": "2026-01-27",
+  "project": {
+    "name": "Koh Samui Travel Directory",
+    "description": "Static directory showcasing tours & activities from real owners in Koh Samui",
+    "purpose": "Help travelers discover authentic tour operators while supporting local businesses"
+  },
+  "categories": [
+    {
+      "id": "diving-snorkeling",
+      "name": "Diving & Snorkeling",
+      "icon": "🤿",
+      "description": "Scuba diving, snorkeling trips, dive courses"
+    },
+    {
+      "id": "island-hopping",
+      "name": "Island Hopping",
+      "icon": "🚤",
+      "description": "Day trips to Ang Thong, Koh Tao, Koh Phangan"
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure & Wildlife",
+      "icon": "🏕️",
+      "description": "ATV, zip-line, elephant sanctuaries, waterfalls"
+    },
+    {
+      "id": "wellness-spa",
+      "name": "Wellness & Spa",
+      "icon": "🧘",
+      "description": "Thai massage, spa treatments, yoga classes"
+    },
+    {
+      "id": "food-tours",
+      "name": "Food & Culture",
+      "icon": "🍜",
+      "description": "Food tours, cooking classes, local experiences"
+    },
+    {
+      "id": "transport",
+      "name": "Transportation",
+      "icon": "🚗",
+      "description": "Taxi, ferry, airport transfer, car/bike rental"
+    },
+    {
+      "id": "accommodation",
+      "name": "Accommodation",
+      "icon": "🏨",
+      "description": "Hotels, resorts, villas, guest houses"
+    },
+    {
+      "id": "nightlife",
+      "name": "Nightlife & Entertainment",
+      "icon": "🌙",
+      "description": "Bars, clubs, beach clubs, evening shows"
+    }
+  ],
+  "areas": [
+    { "id": "chaweng", "name": "Chaweng", "coordinates": { "lat": 9.5332, "lng": 100.0665 } },
+    { "id": "lamai", "name": "Lamai", "coordinates": { "lat": 9.4599, "lng": 100.0535 } },
+    { "id": "bophut", "name": "Bophut (Fisherman's Village)", "coordinates": { "lat": 9.5604, "lng": 100.0334 } },
+    { "id": "maenam", "name": "Maenam", "coordinates": { "lat": 9.5718, "lng": 100.0426 } },
+    { "id": "choeng-mon", "name": "Choeng Mon", "coordinates": { "lat": 9.5514, "lng": 100.0816 } },
+    { "id": "big-buddha", "name": "Big Buddha Beach", "coordinates": { "lat": 9.5761, "lng": 100.0338 } },
+    { "id": "taling-ngam", "name": "Taling Ngam", "coordinates": { "lat": 9.4142, "lng": 99.9591 } },
+    { "id": "nathon", "name": "Nathon (Capital)", "coordinates": { "lat": 9.5368, "lng": 99.9342 } },
+    { "id": "lipa-noi", "name": "Lipa Noi", "coordinates": { "lat": 9.4713, "lng": 99.9101 } },
+    { "id": "bang-por", "name": "Bang Por", "coordinates": { "lat": 9.4991, "lng": 99.9767 } }
+  ],
+  "market_research": {
+    "search_queries": [
+      "Koh Samui tour operators 2025",
+      "best diving schools Koh Samui",
+      "Koh Samui island hopping tours",
+      "Koh Samui ATV adventure tours",
+      "Koh Samui elephant sanctuary",
+      "Koh Samui cooking classes",
+      "Koh Samui spa wellness centers",
+      "Koh Samui private taxi transfer"
+    ],
+    "source_websites": [
+      "viator.com/koh-samui",
+      "klook.com/thailand/koh-samui",
+      "getyourguide.com/koh-samui",
+      "travelfish.org/destinations/thailand/southern-gulf/koh-samui",
+      "tripadvisor.com/Tourism-g293918-Koh_Samui-Vacations.html"
+    ],
+    "pricing_ranges": {
+      "snorkeling_trip": { "min": 800, "max": 2000, "currency": "THB" },
+      "diving_course": { "min": 2500, "max": 15000, "currency": "THB" },
+      "island_hopping": { "min": 1200, "max": 3500, "currency": "THB" },
+      "atv_adventure": { "min": 1500, "max": 3000, "currency": "THB" },
+      "elephant_sanctuary": { "min": 2000, "max": 5000, "currency": "THB" },
+      "cooking_class": { "min": 1200, "max": 2500, "currency": "THB" },
+      "spa_massage": { "min": 500, "max": 5000, "currency": "THB" },
+      "taxi_transfer": { "min": 500, "max": 2000, "currency": "THB" }
+    }
+  }
+}

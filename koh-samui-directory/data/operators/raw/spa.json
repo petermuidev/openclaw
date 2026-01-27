@@ -1,0 +1,47 @@
+{
+  "category": "spa",
+  "timestamp": "2026-01-27T14:02:32.251Z",
+  "count": 5,
+  "operators": [
+    {
+      "name": "Health Land Spa & Massage",
+      "website": "https://healthlandspasamui.com",
+      "description": "One of Koh Samui's most respected spa centers offering traditional Thai massage, aromatherapy, body treatments, and holistic wellness programs in a tranquil garden setting.",
+      "area": "chaweng",
+      "slug": "health-land-spa-chaweng",
+      "status": "researched"
+    },
+    {
+      "name": "Kamalaya Koh Samui",
+      "website": "https://kamalaya.com",
+      "description": "Wellness sanctuary with 100+ therapies, yoga, meditation, private beach. Holistic wellness programs and detox retreats.",
+      "area": "koh-samui",
+      "slug": "kamalaya-koh-samui-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Kimpton Kitalay Samui Spa",
+      "website": "https://www.kimptonkitalaysamui.com/facilities/samui-spa-and-massage/",
+      "description": "Luxury spa with Thai massages, aromatherapy, facials, wellness packages. Luminous Bliss treatment (2 hours, THB 5,100++).",
+      "area": "choeng-mon",
+      "slug": "kimpton-kitalay-samui-spa-choeng-mon",
+      "status": "researched"
+    },
+    {
+      "name": "Legacy Spa & Wellness",
+      "website": "https://legacyspakohsamui.com",
+      "description": "Premium indoor spa center with sauna, steam, massages for recovery and relaxation.",
+      "area": "koh-samui",
+      "slug": "legacy-spa-wellness-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Vikasa (Vita Spa)",
+      "website": "https://vikasa.com",
+      "description": "Yoga studio and spa. Thai massages, aromatherapy, herbal treatments, raw food café packages.",
+      "area": "koh-samui",
+      "slug": "vikasa-vita-spa-koh-samui",
+      "status": "researched"
+    }
+  ]
+}

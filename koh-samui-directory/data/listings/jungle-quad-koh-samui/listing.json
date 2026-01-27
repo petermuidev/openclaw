@@ -1,0 +1,25 @@
+{
+  "id": "jungle-quad-koh-samui",
+  "slug": "jungle-quad-koh-samui",
+  "name": "Jungle Quad",
+  "category": "adventure",
+  "description": "2-4 hour ATV tours on exclusive tracks. Waterfalls, panoramic views, hotel transfers, safety-focused equipment.",
+  "short_description": "2-4 hour ATV tours on exclusive tracks. Waterfalls, panoramic views, hotel transfers, safety-focused equipment....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://junglequad.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://junglequad.com"
+}

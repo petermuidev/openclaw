@@ -1,0 +1,25 @@
+{
+  "id": "kohtour-com-bophut",
+  "slug": "kohtour-com-bophut",
+  "name": "Kohtour.com",
+  "category": "island-hopping",
+  "description": "Full-service tour operator. Island hopping, snorkeling tours, private boat charters. TAT License 43/01401. Supports English, Thai, German, Dutch.",
+  "short_description": "Full-service tour operator. Island hopping, snorkeling tours, private boat charters. TAT License 43/01401. Supports English, Thai, German, Dutch....",
+  "location": {
+    "area": "bophut",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 33 019 299",
+    "line": "",
+    "email": "info@kohtour.com",
+    "website": "https://kohtour.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://kohtour.com"
+}

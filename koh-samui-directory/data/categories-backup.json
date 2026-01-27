@@ -1,0 +1,58 @@
+[
+  {
+    "id": "diving-snorkeling",
+    "name": "Diving & Snorkeling",
+    "icon": "🤿",
+    "slug": "diving-snorkeling",
+    "description": "Scuba diving courses, fun dives, and snorkeling trips around Koh Samui and nearby islands."
+  },
+  {
+    "id": "island-hopping",
+    "name": "Island Hopping",
+    "icon": "🚤",
+    "slug": "island-hopping",
+    "description": "Day trips to Ang Thong Marine Park, Koh Tao, Koh Phangan, and other islands."
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure & Wildlife",
+    "icon": "🏕️",
+    "slug": "adventure",
+    "description": "ATV adventures, zip-lining, elephant sanctuaries, and waterfall explorations."
+  },
+  {
+    "id": "wellness-spa",
+    "name": "Wellness & Spa",
+    "icon": "🧘",
+    "slug": "wellness-spa",
+    "description": "Thai massage, spa treatments, yoga classes, and wellness retreats."
+  },
+  {
+    "id": "food-tours",
+    "name": "Food & Culture",
+    "icon": "🍜",
+    "slug": "food-tours",
+    "description": "Food tours, cooking classes, local market visits, and cultural experiences."
+  },
+  {
+    "id": "transport",
+    "name": "Transportation",
+    "icon": "🚗",
+    "slug": "transport",
+    "description": "Airport transfers, private taxis, car/bike rentals, and ferry tickets."
+  },
+  {
+    "id": "accommodation",
+    "name": "Accommodation",
+    "icon": "🏨",
+    "slug": "accommodation",
+    "description": "Hotels, resorts, villas, and guesthouses in Koh Samui."
+  },
+  {
+    "id": "nightlife",
+    "name": "Nightlife & Entertainment",
+    "icon": "🌙",
+    "slug": "nightlife",
+    "description": "Beach clubs, bars, night markets, and evening entertainment."
+  }
+]

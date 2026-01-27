@@ -1,0 +1,25 @@
+{
+  "id": "go-samui-cook-bo-put",
+  "slug": "go-samui-cook-bo-put",
+  "name": "Go Samui Cook",
+  "category": "food-tours",
+  "description": "Family-run cooking class by native chefs Geng & O Family. 4-hour class with Big Buddha market tour, cook 4 dishes, kids play area.",
+  "short_description": "Family-run cooking class by native chefs Geng & O Family. 4-hour class with Big Buddha market tour, cook 4 dishes, kids play area....",
+  "location": {
+    "area": "bo-put",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "+66 98 492 9392",
+    "line": "gosamuicook",
+    "email": "gosamuicook@gmail.com",
+    "website": "https://www.gosamuicook.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61552734223051"
+  },
+  "status": "draft",
+  "source_url": "https://www.gosamuicook.com"
+}

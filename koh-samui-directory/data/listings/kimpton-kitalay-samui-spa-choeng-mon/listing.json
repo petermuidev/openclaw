@@ -1,0 +1,25 @@
+{
+  "id": "kimpton-kitalay-samui-spa-choeng-mon",
+  "slug": "kimpton-kitalay-samui-spa-choeng-mon",
+  "name": "Kimpton Kitalay Samui Spa",
+  "category": "wellness-spa",
+  "description": "Luxury spa with Thai massages, aromatherapy, facials, wellness packages. Luminous Bliss treatment (2 hours, THB 5,100++).",
+  "short_description": "Luxury spa with Thai massages, aromatherapy, facials, wellness packages. Luminous Bliss treatment (2 hours, THB 5,100++)....",
+  "location": {
+    "area": "choeng-mon",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "077 951 999",
+    "line": "@kimptonsamui",
+    "email": "kimptonkitalay.spa@ihg.com",
+    "website": "https://www.kimptonkitalaysamui.com/facilities/samui-spa-and-massage/",
+    "facebook": "m.me/kimptonsamui"
+  },
+  "status": "draft",
+  "source_url": "https://www.kimptonkitalaysamui.com/facilities/samui-spa-and-massage/"
+}

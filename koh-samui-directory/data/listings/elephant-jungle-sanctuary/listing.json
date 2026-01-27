@@ -1,0 +1,101 @@
+{
+  "id": "004",
+  "slug": "elephant-jungle-sanctuary",
+  "name": "Elephant Jungle Sanctuary Samui",
+  "category": "adventure",
+  "description": "Ethical elephant sanctuary offering half-day and full-day experiences with rescued elephants. Walk with elephants, feed them, and learn about conservation in a responsible environment.",
+  "short_description": "Ethical elephant sanctuary with walking tours and feeding experiences.",
+  "location": {
+    "area": "taling-ngam",
+    "address": "51/4 Moo 2, Taling Ngam, Koh Samui",
+    "coordinates": {
+      "lat": 9.4142,
+      "lng": 99.9591
+    }
+  },
+  "itinerary": {
+    "duration": "Half Day (8:00 AM - 12:00 PM) or Full Day (8:00 AM - 3:00 PM)",
+    "highlights": [
+      "Walk with elephants",
+      "Feeding",
+      "Mud spa",
+      "Bath time",
+      "Educational talk"
+    ],
+    "schedule": "Hotel pickup, introduction, walk with elephants, feeding, mud spa, bathe, lunch (full day only), return",
+    "start_times": [
+      "8:00 AM"
+    ],
+    "days_operated": [
+      "Daily"
+    ],
+    "inclusions": [
+      "Hotel pickup/drop-off",
+      "Guide",
+      "Food for elephants",
+      "Traditional Thai lunch (full day)"
+    ],
+    "exclusions": [
+      "Personal expenses",
+      "Photos with elephants (optional 500 THB)"
+    ],
+    "what_to_bring": [
+      "Swimsuit",
+      "Towel",
+      "Sunscreen",
+      "Insect repellent",
+      "Change of clothes"
+    ]
+  },
+  "pricing": {
+    "adult": 2500,
+    "child": 1500,
+    "currency": "THB",
+    "discount_available": true,
+    "discount_percentage": 10
+  },
+  "owner": {
+    "name": "Phuket Elephant Sanctuary Group",
+    "company": "Elephant Jungle Sanctuary Samui Co., Ltd.",
+    "license_number": "63/55678",
+    "verified": true,
+    "years_in_business": 4
+  },
+  "contact": {
+    "phone": "+66 95 678 9012",
+    "email": "samui@elephantsanctuary.co.th",
+    "website": "https://elephantsanctuarysamui.com",
+    "line_id": "ejs_samui",
+    "facebook": "https://facebook.com/ElephantJungleSanctuarySamui"
+  },
+  "media": {
+    "hero_image": "/images/listings/elephant-hero.jpg",
+    "gallery": [
+      "/images/listings/elephant-1.jpg",
+      "/images/listings/elephant-2.jpg"
+    ]
+  },
+  "reviews": {
+    "rating": 4.7,
+    "count": 312,
+    "google_rating": 4.8,
+    "tripadvisor_rating": 4.7
+  },
+  "tags": [
+    "elephant",
+    "sanctuary",
+    "ethical",
+    "wildlife",
+    "conservation"
+  ],
+  "highlights": [
+    "Ethical treatment",
+    "Small groups",
+    "Educational",
+    "Beautiful location"
+  ],
+  "status": "published",
+  "created_at": "2026-01-27T10:00:00Z",
+  "updated_at": "2026-01-27T10:00:00Z",
+  "source_url": "https://elephantsanctuarysamui.com"
+}

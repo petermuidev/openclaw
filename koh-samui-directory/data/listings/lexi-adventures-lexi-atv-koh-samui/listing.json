@@ -1,0 +1,25 @@
+{
+  "id": "lexi-adventures-lexi-atv-koh-samui",
+  "slug": "lexi-adventures-lexi-atv-koh-samui",
+  "name": "Lexi Adventures (Lexi ATV)",
+  "category": "adventure",
+  "description": "Beginner-friendly ATV tours with new automatic ATVs. Hidden waterfalls, viewpoints, professional staff.",
+  "short_description": "Beginner-friendly ATV tours with new automatic ATVs. Hidden waterfalls, viewpoints, professional staff....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://lexiadventures.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://lexiadventures.com"
+}

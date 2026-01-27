@@ -1,0 +1,25 @@
+{
+  "id": "samui-quad-motor-koh-samui",
+  "slug": "samui-quad-motor-koh-samui",
+  "name": "Samui Quad Motor",
+  "category": "adventure",
+  "description": "Mountain trail and jungle safari tours. Established since 2002, experienced guides for safety.",
+  "short_description": "Mountain trail and jungle safari tours. Established since 2002, experienced guides for safety....",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://www.samuiquad.com/en/",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.samuiquad.com/en/"
+}

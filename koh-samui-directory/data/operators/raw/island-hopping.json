@@ -1,0 +1,63 @@
+{
+  "category": "island-hopping",
+  "timestamp": "2026-01-27T14:02:32.250Z",
+  "count": 7,
+  "operators": [
+    {
+      "name": "Ang Thong Maritime Park Tours",
+      "website": "https://angthongtourssamui.com",
+      "description": "Explore the stunning Ang Thong Maritime Park with daily boat trips. Visit viewpoints, kayaking, snorkeling, and beach relaxation on pristine islands. Professional guides and comfortable speedboats.",
+      "area": "nathon",
+      "slug": "ang-thong-maritime-park-tours",
+      "status": "researched"
+    },
+    {
+      "name": "Koh Samui Experiences",
+      "website": "https://www.kohsamuiexperiences.com",
+      "description": "High-end private speedboat tours, island hopping to Pig Island, Ang Thong Marine Park, Koh Tao. Featured in Bangkok Airways inflight magazine. Thai License No 44.00385.",
+      "area": "koh-samui",
+      "slug": "koh-samui-experiences-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Kohtour.com",
+      "website": "https://kohtour.com",
+      "description": "Full-service tour operator. Island hopping, snorkeling tours, private boat charters. TAT License 43/01401. Supports English, Thai, German, Dutch.",
+      "area": "bophut",
+      "slug": "kohtour-com-bophut",
+      "status": "researched"
+    },
+    {
+      "name": "Oceana Samui",
+      "website": "https://oceanasamui.com",
+      "description": "Luxury speedboat and yacht charters. Private and semi-private island hopping tours, dolphin spotting, sunset cruises. Official partner of 5-star Koh Samui resorts.",
+      "area": "koh-samui",
+      "slug": "oceana-samui-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Oceans Elite Charters",
+      "website": "https://oceanselitecharters.com",
+      "description": "Luxury yacht and speedboat charters. Island hopping to Ang Thong Marine Park, Koh Tao, Koh Phangan, Koh Tan, Pig Island. Private tours, sunset cruises, overnight charters.",
+      "area": "koh-samui",
+      "slug": "oceans-elite-charters-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "Samui Island Explorer",
+      "website": "https://www.samuiislandexplorer.com",
+      "description": "Tour agent offering private and group island hopping tours to Angthong National Marine Park, Koh Phangan, Koh Tao, Koh Madsum, Koh Taen, Koh Rap. Luxury yachts, VIP speedboats.",
+      "area": "koh-samui",
+      "slug": "samui-island-explorer-koh-samui",
+      "status": "researched"
+    },
+    {
+      "name": "TourGoat Samui",
+      "website": "https://tourgoat-samui.com",
+      "description": "Premium island hopping, snorkeling tours, adventure activities. Specializes in Ang Thong Marine Park, Koh Phangan, Koh Tao, Pig Island. German-speaking service.",
+      "area": "koh-samui",
+      "slug": "tourgoat-samui-koh-samui",
+      "status": "researched"
+    }
+  ]
+}

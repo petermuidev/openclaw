@@ -1,0 +1,25 @@
+{
+  "id": "koh-samui-experiences-koh-samui",
+  "slug": "koh-samui-experiences-koh-samui",
+  "name": "Koh Samui Experiences",
+  "category": "island-hopping",
+  "description": "High-end private speedboat tours, island hopping to Pig Island, Ang Thong Marine Park, Koh Tao. Featured in Bangkok Airways inflight magazine. Thai License No 44.00385.",
+  "short_description": "High-end private speedboat tours, island hopping to Pig Island, Ang Thong Marine Park, Koh Tao. Featured in Bangkok Airways inflight magazine. Thai Li...",
+  "location": {
+    "area": "koh-samui",
+    "address": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "contact": {
+    "phone": "",
+    "line": "",
+    "email": "",
+    "website": "https://www.kohsamuiexperiences.com",
+    "facebook": ""
+  },
+  "status": "draft",
+  "source_url": "https://www.kohsamuiexperiences.com"
+}
