@@ -1,0 +1,296 @@
+{
+  "account": "davispeet",
+  "period": "2026-01-16 to 2026-01-27",
+  "total_retweets": 32,
+  "generated": "2026-01-27T10:02:06.782Z",
+  "retweets": [
+    {
+      "original_author": "niarakuz",
+      "timestamp": "Fri Jan 16 11:52:10 +0000 2026",
+      "parsed_date": "2026-01-16T11:52:10.000Z",
+      "url": "https://x.com/davispeet/status/2012130754667618805",
+      "tweet_id": "2012130754667618805",
+      "image": "https://pbs.twimg.com/media/G-xQYCqbQAIKW4u.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "ofkeonho_",
+      "timestamp": "Sat Jan 17 06:34:16 +0000 2026",
+      "parsed_date": "2026-01-17T06:34:16.000Z",
+      "url": "https://x.com/davispeet/status/2012413141184131520",
+      "tweet_id": "2012413141184131520",
+      "image": "https://pbs.twimg.com/media/G-yoAXvbMAIA1y_.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "rwoseyg",
+      "timestamp": "Sat Jan 17 06:35:24 +0000 2026",
+      "parsed_date": "2026-01-17T06:35:24.000Z",
+      "url": "https://x.com/davispeet/status/2012413426430337203",
+      "tweet_id": "2012413426430337203",
+      "image": "https://pbs.twimg.com/media/G-xBdaZbQAQirCZ.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "yorselves",
+      "timestamp": "Sat Jan 17 10:06:32 +0000 2026",
+      "parsed_date": "2026-01-17T10:06:32.000Z",
+      "url": "https://x.com/davispeet/status/2012466559462281522",
+      "tweet_id": "2012466559462281522",
+      "image": "https://pbs.twimg.com/media/G-t2W09bQAA_41H.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "latifahbinti17",
+      "timestamp": "Tue Jan 20 13:37:37 +0000 2026",
+      "parsed_date": "2026-01-20T13:37:37.000Z",
+      "url": "https://x.com/davispeet/status/2013606845475152053",
+      "tweet_id": "2013606845475152053",
+      "image": "https://pbs.twimg.com/media/G_CsyBKWsAE1RuI.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "mazpioe",
+      "timestamp": "Tue Jan 20 13:37:41 +0000 2026",
+      "parsed_date": "2026-01-20T13:37:41.000Z",
+      "url": "https://x.com/davispeet/status/2013606861803515977",
+      "tweet_id": "2013606861803515977",
+      "image": "https://pbs.twimg.com/media/G-_u1qFWAAAhtMa.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "huangrenbun",
+      "timestamp": "Tue Jan 20 13:38:33 +0000 2026",
+      "parsed_date": "2026-01-20T13:38:33.000Z",
+      "url": "https://x.com/davispeet/status/2013607080549065066",
+      "tweet_id": "2013607080549065066",
+      "image": "https://pbs.twimg.com/media/G_CHEpMXUAA1kYq.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "twertkie",
+      "timestamp": "Tue Jan 20 13:38:41 +0000 2026",
+      "parsed_date": "2026-01-20T13:38:41.000Z",
+      "url": "https://x.com/davispeet/status/2013607111742435522",
+      "tweet_id": "2013607111742435522",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "kiyaaowwie",
+      "timestamp": "Tue Jan 20 13:41:18 +0000 2026",
+      "parsed_date": "2026-01-20T13:41:18.000Z",
+      "url": "https://x.com/davispeet/status/2013607773364461994",
+      "tweet_id": "2013607773364461994",
+      "image": "https://pbs.twimg.com/media/G_CvAniXcAAI51i.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "xangminah",
+      "timestamp": "Tue Jan 20 13:41:43 +0000 2026",
+      "parsed_date": "2026-01-20T13:41:43.000Z",
+      "url": "https://x.com/davispeet/status/2013607876565274744",
+      "tweet_id": "2013607876565274744",
+      "image": "https://pbs.twimg.com/media/G_FkfSTXIAEUHK2.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "miawyno",
+      "timestamp": "Tue Jan 20 14:02:06 +0000 2026",
+      "parsed_date": "2026-01-20T14:02:06.000Z",
+      "url": "https://x.com/davispeet/status/2013613007260262402",
+      "tweet_id": "2013613007260262402",
+      "image": "https://pbs.twimg.com/media/G_AFQXCW4AAQtZ6.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": null,
+      "timestamp": "Tue Jan 20 14:02:10 +0000 2026",
+      "parsed_date": "2026-01-20T14:02:10.000Z",
+      "url": "https://x.com/davispeet/status/2013613021667713126",
+      "tweet_id": "2013613021667713126",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "xixisafi",
+      "timestamp": "Thu Jan 22 03:18:34 +0000 2026",
+      "parsed_date": "2026-01-22T03:18:34.000Z",
+      "url": "https://x.com/davispeet/status/2014175832315666567",
+      "tweet_id": "2014175832315666567",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "cacafega83900",
+      "timestamp": "Mon Jan 26 17:58:39 +0000 2026",
+      "parsed_date": "2026-01-26T17:58:39.000Z",
+      "url": "https://x.com/davispeet/status/2015846862859927567",
+      "tweet_id": "2015846862859927567",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "tom_doerr",
+      "timestamp": "Mon Jan 26 18:05:33 +0000 2026",
+      "parsed_date": "2026-01-26T18:05:33.000Z",
+      "url": "https://x.com/davispeet/status/2015848599796756991",
+      "tweet_id": "2015848599796756991",
+      "image": "https://pbs.twimg.com/media/G_jPFP1WoAA7y5n.png",
+      "content_type": "image"
+    },
+    {
+      "original_author": "lileaglet",
+      "timestamp": "Mon Jan 26 18:10:31 +0000 2026",
+      "parsed_date": "2026-01-26T18:10:31.000Z",
+      "url": "https://x.com/davispeet/status/2015849848634003560",
+      "tweet_id": "2015849848634003560",
+      "image": "https://pbs.twimg.com/media/G_lWR8Lb0AAAnuD.png",
+      "content_type": "image"
+    },
+    {
+      "original_author": "blimsyy",
+      "timestamp": "Tue Jan 27 09:45:45 +0000 2026",
+      "parsed_date": "2026-01-27T09:45:45.000Z",
+      "url": "https://x.com/davispeet/status/2016085207242440797",
+      "tweet_id": "2016085207242440797",
+      "image": "https://pbs.twimg.com/media/G_klitebYAA6RWH.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "fiyeyep",
+      "timestamp": "Tue Jan 27 09:46:08 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:08.000Z",
+      "url": "https://x.com/davispeet/status/2016085304554496324",
+      "tweet_id": "2016085304554496324",
+      "image": "https://pbs.twimg.com/media/G_ovABUXIAAu2me.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "itsmeyrac",
+      "timestamp": "Tue Jan 27 09:46:14 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:14.000Z",
+      "url": "https://x.com/davispeet/status/2016085329028251773",
+      "tweet_id": "2016085329028251773",
+      "image": "https://pbs.twimg.com/media/G_iK1Y5a0AAboAU.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "itsmeyrac",
+      "timestamp": "Tue Jan 27 09:46:31 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:31.000Z",
+      "url": "https://x.com/davispeet/status/2016085402415960155",
+      "tweet_id": "2016085402415960155",
+      "image": "https://pbs.twimg.com/media/G_iKq-qXMAAKbeR.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "stofpable",
+      "timestamp": "Tue Jan 27 09:46:37 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:37.000Z",
+      "url": "https://x.com/davispeet/status/2016085426625511565",
+      "tweet_id": "2016085426625511565",
+      "image": "https://pbs.twimg.com/media/G_hVeOUaAAE_TBv.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "stofpable",
+      "timestamp": "Tue Jan 27 09:46:39 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:39.000Z",
+      "url": "https://x.com/davispeet/status/2016085435248967916",
+      "tweet_id": "2016085435248967916",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "ruubbed",
+      "timestamp": "Tue Jan 27 09:46:45 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:45.000Z",
+      "url": "https://x.com/davispeet/status/2016085460901364163",
+      "tweet_id": "2016085460901364163",
+      "image": "https://pbs.twimg.com/media/G_keUgEakAAZbVa.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "itsmeyrac",
+      "timestamp": "Tue Jan 27 09:46:55 +0000 2026",
+      "parsed_date": "2026-01-27T09:46:55.000Z",
+      "url": "https://x.com/davispeet/status/2016085501699366925",
+      "tweet_id": "2016085501699366925",
+      "image": "https://pbs.twimg.com/media/G_iKlJDakAA71OU.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "NoerTiting",
+      "timestamp": "Tue Jan 27 09:47:05 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:05.000Z",
+      "url": "https://x.com/davispeet/status/2016085543650787332",
+      "tweet_id": "2016085543650787332",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "stofpable",
+      "timestamp": "Tue Jan 27 09:47:08 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:08.000Z",
+      "url": "https://x.com/davispeet/status/2016085555797491875",
+      "tweet_id": "2016085555797491875",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "ginqerly",
+      "timestamp": "Tue Jan 27 09:47:14 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:14.000Z",
+      "url": "https://x.com/davispeet/status/2016085582464901285",
+      "tweet_id": "2016085582464901285",
+      "image": "https://pbs.twimg.com/media/G_l6ISXasAAAAPm.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "prisschela",
+      "timestamp": "Tue Jan 27 09:47:16 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:16.000Z",
+      "url": "https://x.com/davispeet/status/2016085590190784836",
+      "tweet_id": "2016085590190784836",
+      "image": "https://pbs.twimg.com/media/G_kSrfXXsAAIckX.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "prisschela",
+      "timestamp": "Tue Jan 27 09:47:18 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:18.000Z",
+      "url": "https://x.com/davispeet/status/2016085598248022457",
+      "tweet_id": "2016085598248022457",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "stofpable",
+      "timestamp": "Tue Jan 27 09:47:31 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:31.000Z",
+      "url": "https://x.com/davispeet/status/2016085653206008031",
+      "tweet_id": "2016085653206008031",
+      "image": "https://pbs.twimg.com/media/G_hYau2aEAEJgAs.jpg",
+      "content_type": "image"
+    },
+    {
+      "original_author": "stofpable",
+      "timestamp": "Tue Jan 27 09:47:33 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:33.000Z",
+      "url": "https://x.com/davispeet/status/2016085661338763376",
+      "tweet_id": "2016085661338763376",
+      "image": null,
+      "content_type": "link_dump"
+    },
+    {
+      "original_author": "djogecr",
+      "timestamp": "Tue Jan 27 09:47:42 +0000 2026",
+      "parsed_date": "2026-01-27T09:47:42.000Z",
+      "url": "https://x.com/davispeet/status/2016085701327208673",
+      "tweet_id": "2016085701327208673",
+      "image": null,
+      "content_type": "link_dump"
+    }
+  ]
+}

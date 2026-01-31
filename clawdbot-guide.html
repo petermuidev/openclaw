@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clawdbot Tools & Plugins Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #FF4500, #ff6b35);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .meta {
+            margin-top: 15px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        .toc {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .toc h2 {
+            color: #FF4500;
+            margin-bottom: 15px;
+        }
+        .toc ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .toc a {
+            color: #0066CC;
+            text-decoration: none;
+            padding: 8px 15px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            display: block;
+            transition: all 0.3s;
+        }
+        .toc a:hover {
+            background: #FF4500;
+            color: white;
+        }
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #FF4500;
+            border-bottom: 3px solid #FF4500;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #0066CC;
+            margin: 20px 0 15px 0;
+        }
+        h4 {
+            color: #333;
+            margin: 15px 0 10px 0;
+        }
+        .status {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .status.loaded {
+            background: #28a745;
+            color: white;
+        }
+        .status.enabled {
+            background: #28a745;
+            color: white;
+        }
+        .status.disabled {
+            background: #dc3545;
+            color: white;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        pre {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+        .command {
+            background: #2d2d30;
+            color: #9cdcfe;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .command:hover {
+            background: #1e1e1e;
+        }
+        .box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .box.success {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        .box.info {
+            background: #d1ecf1;
+            border-color: #17a2b8;
+        }
+        .box.warning {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+        .box.danger {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #f8f8f8;
+            font-weight: bold;
+            color: #333;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #FF4500;
+        }
+        .card h4 {
+            color: #FF4500;
+            margin-top: 0;
+        }
+        ul {
+            margin: 10px 0 10px 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-right: 5px;
+        }
+        .badge.green {
+            background: #28a745;
+            color: white;
+        }
+        .badge.blue {
+            background: #0066CC;
+            color: white;
+        }
+        .badge.orange {
+            background: #FF4500;
+            color: white;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #FF4500;
+        }
+        .workflow {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .workflow-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #FF4500;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+        .step:last-child {
+            border-bottom: none;
+        }
+        .step-num {
+            width: 25px;
+            height: 25px;
+            background: #0066CC;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 25px;
+            font-size: 0.85em;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            header {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            section {
+                padding: 20px;
+            }
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🦞 Clawdbot Tools & Plugins Guide</h1>
+        <p class="subtitle">Complete Reference for Skills, Plugins, Web Tools & Automation</p>
+        <p class="meta">Generated: Tue Jan 27 2026 | Last Updated: Tue Jan 27 2026</p>
+    </header>
+
+    <div class="container">
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h2>📚 Table of Contents</h2>
+            <ul>
+                <li><a href="#skills">🤖 Skills (8 Enabled)</a></li>
+                <li><a href="#plugins">🔌 Plugins (8 Loaded)</a></li>
+                <li><a href="#llm-task">📋 LLM Task (Deep Dive)</a></li>
+                <li><a href="#web-tools">🌐 Web Tools</a></li>
+                <li><a href="#browser">🖥️ Browser</a></li>
+                <li><a href="#auth">🔐 Authentication</a></li>
+                <li><a href="#workflows">⚡ Quick Workflows</a></li>
+                <li><a href="#cli">⌨️ CLI Commands</a></li>
+                <li><a href="#config">⚙️ Configuration</a></li>
+                <li><a href="#troubleshooting">🔧 Troubleshooting</a></li>
+            </ul>
+        </div>
+
+        <!-- Section 1: Skills -->
+        <section id="skills">
+            <h2>🤖 SKILLS (8 ENABLED)</h2>
+
+            <div class="card">
+                <h4>🐦 BIRD - Twitter/X CLI</h4>
+                <p><strong>What:</strong> X/Twitter CLI for reading, searching, posting, and engagement</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-installed</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">npx bird home                              # View timeline</div>
+                <div class="command">npx bird whoami                           # View profile</div>
+                <div class="command">npx bird user-tweets davispeet            # View your tweets</div>
+                <div class="command">npx bird likes                            # View your likes</div>
+                <div class="command">npx bird search "AI news" -n 10          # Search Twitter</div>
+                <div class="command">npx bird trending                         # Trending topics</div>
+
+                <h4>Use Cases</h4>
+                <ul>
+                    <li>Monitor Twitter for industry news</li>
+                    <li>Track competitors' tweets</li>
+                    <li>Collect data for research</li>
+                    <li>Automate engagement tracking</li>
+                    <li>Backup your Twitter data</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>🎨 CHUTES-IMAGE-GEN</h4>
+                <p><strong>What:</strong> Generate or edit images via Chutes Image API (Qwen-Image, FLUX)</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-configured</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">uv run Skills/chutes-image-gen/scripts/generate.py --prompt "A sunset over mountains" --filename sunset.png</div>
+                <div class="command">uv run Skills/chutes-image-gen/scripts/edit.py --prompt "Add more clouds" --input-image sunset.png --filename edited.png</div>
+
+                <h4>Use Cases</h4>
+                <ul>
+                    <li>Generate marketing images</li>
+                    <li>Create social media content</li>
+                    <li>Prototype visual ideas</li>
+                    <li>Edit product photos</li>
+                    <li>Create thumbnails</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>📦 CLAWDHUB</h4>
+                <p><strong>What:</strong> Search, install, update, and publish agent skills from clawdhub.com</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-installed</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">npx clawdhub search "image generation"     # Find skills</div>
+                <div class="command">npx clawdhub install skill-name           # Install skill</div>
+                <div class="command">npx clawdhub update                       # Update all</div>
+                <div class="command">npx clawdhub publish ./my-skill/          # Publish skill</div>
+            </div>
+
+            <div class="card">
+                <h4>🧩 CODING-AGENT</h4>
+                <p><strong>What:</strong> Run Codex CLI, Claude Code, or Pi Coding Agent programmatically</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-configured</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">clawdbot agent --message "Write a Python script to parse CSV files" --deliver</div>
+                <div class="command">clawdbot agent --message "Create a REST API with FastAPI" --deliver</div>
+            </div>
+
+            <div class="card">
+                <h4>♊️ GEMINI</h4>
+                <p><strong>What:</strong> Gemini CLI for one-shot Q&A, summaries, and generation</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-installed</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">clawdbot agent --model gemini --message "Explain quantum computing"</div>
+                <div class="command">clawdbot agent --model gemini --message "Write a blog post about AI"</div>
+            </div>
+
+            <div class="card">
+                <h4>📝 NOTION</h4>
+                <p><strong>What:</strong> Notion API for creating and managing pages, databases, and blocks</p>
+                <p><strong>Status:</strong> <span class="badge orange">⚠️ Needs API Key</span></p>
+                
+                <h4>Configuration</h4>
+                <pre>{
+  "skills": {
+    "entries": {
+      "notion": {
+        "enabled": true,
+        "env": {
+          "NOTION_API_KEY": "secret_your_api_key"
+        }
+      }
+    }
+  }
+}</pre>
+            </div>
+
+            <div class="card">
+                <h4>📦 SKILL-CREATOR</h4>
+                <p><strong>What:</strong> Create or update AgentSkills - design, structure, and package skills</p>
+                <p><strong>Status:</strong> <span class="badge green">✅ Pre-installed</span></p>
+                
+                <h4>Commands</h4>
+                <div class="command">clawdbot skills create              # Create new skill</div>
+                <div class="command">clawdbot skills package ./my-skill/ # Package skill</div>
+            </div>
+        </section>
+
+        <!-- Section 2: Plugins -->
+        <section id="plugins">
+            <h2>🔌 PLUGINS (8 LOADED)</h2>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h4>📱 TELEGRAM</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>Telegram channel plugin for AI assistant</p>
+                    <p><strong>Setup:</strong> Get token from @BotFather, save to ~/.clawdbot/telegram.token</p>
+                </div>
+
+                <div class="card">
+                    <h4>💾 MEMORY (CORE)</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>File-backed memory search tools</p>
+                    <div class="command">clawdbot memory search "keyword"</div>
+                    <div class="command">clawdbot memory list</div>
+                </div>
+
+                <div class="card">
+                    <h4>📋 LLM TASK</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span> | <span class="badge blue">✅ Configured</span></p>
+                    <p><strong>What:</strong> JSON-only LLM tool with schema validation</p>
+                    <p><strong>Returns:</strong> Structured JSON with validation against schema</p>
+                    
+                    <h4>Configuration</h4>
+                    <pre>{
+  "plugins": {
+    "entries": {
+      "llm-task": { "enabled": true }
+    }
+  },
+  "agents": {
+    "list": [{
+      "id": "main",
+      "tools": { "allow": ["llm-task"] }
+    }]
+  }
+}</pre>
+
+                    <h4>Tool Parameters</h4>
+                    <table>
+                        <tr><th>Parameter</th><th>Type</th><th>Description</th></tr>
+                        <tr><td>prompt</td><td>string</td><td>Task instruction (required)</td></tr>
+                        <tr><td>input</td><td>any</td><td>Data to process</td></tr>
+                        <tr><td>schema</td><td>object</td><td>JSON Schema for validation</td></tr>
+                        <tr><td>provider</td><td>string</td><td>Model provider</td></tr>
+                        <tr><td>model</td><td>string</td><td>Model ID</td></tr>
+                        <tr><td>temperature</td><td>number</td><td>0-1 (default 0)</td></tr>
+                        <tr><td>maxTokens</td><td>number</td><td>Max output tokens</td></tr>
+                    </table>
+
+                    <h4>Use Cases</h4>
+                    <ul>
+                        <li>Email classification & sentiment analysis</li>
+                        <li>Data extraction from documents</li>
+                        <li>Form parsing & validation</li>
+                        <li>Content categorization</li>
+                        <li>Structured data generation</li>
+                        <li>Webhook payload validation</li>
+                        <li>Inventory & product data processing</li>
+                    </ul>
+
+                    <h4>🎯 Live Demo: Email Classification</h4>
+                    <div class="box success">
+                        <strong>Command:</strong><br>
+                        <code>clawdbot agent --agent main --message "Use llm-task to classify these 5 emails..." --local --json</code>
+                    </div>
+
+                    <h4>Demo Result</h4>
+                    <pre>{
+  "classifications": [
+    {
+      "email_id": "1",
+      "sentiment": "negative",
+      "category": "shipping",
+      "priority": "high",
+      "action_required": "yes",
+      "summary": "Customer frustrated with 3-week wait, demanding refund"
+    },
+    {
+      "email_id": "2",
+      "sentiment": "positive",
+      "category": "product_feedback",
+      "priority": "low",
+      "action_required": "no",
+      "summary": "Satisfied customer praising product quality"
+    },
+    {
+      "email_id": "3",
+      "sentiment": "neutral",
+      "category": "inquiry",
+      "priority": "medium",
+      "action_required": "yes",
+      "summary": "Customer asking about product availability in specific color"
+    },
+    {
+      "email_id": "4",
+      "sentiment": "negative",
+      "category": "complaint",
+      "priority": "high",
+      "action_required": "yes",
+      "summary": "Customer complaining about defective product"
+    },
+    {
+      "email_id": "5",
+      "sentiment": "neutral",
+      "category": "retention",
+      "priority": "medium",
+      "action_required": "yes",
+      "summary": "Customer exploring competitor options, requesting competitive offer"
+    }
+  ]
+}</pre>
+
+                    <h4>More Examples</h4>
+                    
+                    <h5>Example 1: Product Data Extraction</h5>
+                    <pre>{
+  "prompt": "Extract product info from this text",
+  "input": { "text": "iPhone 15 Pro Max, 256GB, Space Black, $1,199" },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "product_name": { "type": "string" },
+      "storage": { "type": "string" },
+      "color": { "type": "string" },
+      "price": { "type": "number" }
+    }
+  }
+}</pre>
+
+                    <h5>Example 2: Support Ticket Routing</h5>
+                    <pre>{
+  "prompt": "Route this support ticket to correct department",
+  "input": { "ticket": "I can't log into my account, getting error 500" },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "department": { "type": "string", "enum": ["billing", "technical", "sales", "general"] },
+      "urgency": { "type": "string", "enum": ["low", "medium", "high", "critical"] }
+    }
+  }
+}</pre>
+
+                    <h5>Example 3: Content Moderation</h5>
+                    <pre>{
+  "prompt": "Analyze this comment for policy violations",
+  "input": { "comment": "Great product! Love it." },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "is_safe": { "type": "boolean" },
+      "categories": { "type": "array", "items": { "type": "string" } },
+      "action": { "type": "string", "enum": ["approve", "flag", "reject"] }
+    }
+  }
+}</pre>
+                </div>
+
+                <div class="card">
+                    <h4>🦞 LOBSTER</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>Workflow runtime with approval gates</p>
+                    <p><strong>Requires:</strong> npm install -g @clawdbot/lobster + agent allowlist</p>
+                    <div class="box warning">
+                        ⚠️ Windows/Node 22 has ESM issues - may need Node 20
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h4>📜 OPEN-PROSE</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>VM skill pack with /prose command</p>
+                    <div class="command">/prose write about topic</div>
+                    <div class="command">/prose summarize content</div>
+                </div>
+
+                <div class="card">
+                    <h4>🟣 QWEN PORTAL AUTH</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>OAuth for free Qwen models</p>
+                    <div class="command">clawdbot models auth login --provider qwen-portal --set-default</div>
+                </div>
+
+                <div class="card">
+                    <h4>🔵 GOOGLE ANTIGRAVITY AUTH</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>OAuth for Google Cloud Code Assist</p>
+                    <div class="command">clawdbot models auth login --provider google-antigravity --set-default</div>
+                </div>
+
+                <div class="card">
+                    <h4>💠 GOOGLE GEMINI CLI AUTH</h4>
+                    <p><strong>Status:</strong> <span class="badge green">✅ Loaded</span></p>
+                    <p>OAuth for local Gemini CLI</p>
+                    <p><strong>Requires:</strong> npm install -g @google/gemini-cli</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: LLM Task Deep Dive -->
+        <section id="llm-task">
+            <h2>📋 LLM TASK - DEEP DIVE</h2>
+
+            <div class="box success">
+                <h3>✅ What is LLM Task?</h3>
+                <p>A <strong>JSON-only</strong> LLM tool that returns structured data with optional JSON Schema validation. Perfect for when you need machine-readable output, not natural language.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h4>🎯 Key Features</h4>
+                    <ul>
+                        <li>✅ Returns ONLY JSON (no commentary)</li>
+                        <li>✅ Optional schema validation</li>
+                        <li>✅ No tools exposed to model</li>
+                        <li>✅ Deterministic output</li>
+                        <li>✅ Integrates with Lobster workflows</li>
+                        <li>✅ Configurable model & provider</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>📊 Tool Parameters</h4>
+                    <table>
+                        <tr><th>Param</th><th>Type</th><th>Required</th></tr>
+                        <tr><td>prompt</td><td>string</td><td>✅ Yes</td></tr>
+                        <tr><td>input</td><td>any</td><td>❌ No</td></tr>
+                        <tr><td>schema</td><td>object</td><td>❌ No</td></tr>
+                        <tr><td>provider</td><td>string</td><td>❌ No</td></tr>
+                        <tr><td>model</td><td>string</td><td>❌ No</td></tr>
+                        <tr><td>temperature</td><td>number</td><td>❌ No</td></tr>
+                        <tr><td>maxTokens</td><td>number</td><td>❌ No</td></tr>
+                        <tr><td>timeoutMs</td><td>number</td><td>❌ No</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <h3>🚀 Quick Start</h3>
+            <div class="command">clawdbot agent --agent main --message "Use llm-task to classify this data..." --local --json</div>
+
+            <h3>📋 Use Cases</h3>
+            <div class="grid-2">
+                <div class="card">
+                    <h4>📧 Email & Ticket Processing</h4>
+                    <ul>
+                        <li>Sentiment analysis</li>
+                        <li>Category routing</li>
+                        <li>Priority assignment</li>
+                        <li>Entity extraction</li>
+                        <li>Action detection</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>📄 Document Processing</h4>
+                    <ul>
+                        <li>Invoice data extraction</li>
+                        <li>Form field parsing</li>
+                        <li>Contract analysis</li>
+                        <li>Resume parsing</li>
+                        <li>Receipt scanning</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>🛒 E-commerce</h4>
+                    <ul>
+                        <li>Product categorization</li>
+                        <li>Review moderation</li>
+                        <li>Inventory classification</li>
+                        <li>Price monitoring</li>
+                        <li>Competitor analysis</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>🔍 Data & Analytics</h4>
+                    <ul>
+                        <li>Survey analysis</li>
+                        <li>Feedback classification</li>
+                        <li>Trend identification</li>
+                        <li>Anomaly detection</li>
+                        <li>Report generation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>🎯 Live Demonstration</h3>
+            
+            <h4>Task: Email Classification</h4>
+            <div class="command">clawdbot agent --agent main --message "Use the llm-task tool to classify these customer emails..." --local --json</div>
+
+            <h4>Input Data</h4>
+            <pre>Emails:
+1. "I've been waiting for my order for 3 weeks now. This is ridiculous! I want a refund immediately."
+2. "Just wanted to say thanks for the amazing product. It exceeded my expectations!"
+3. "Can you tell me if this item is available in blue?"
+4. "Your product broke after 2 days. This is such a waste of money."
+5. "I'm considering switching to your competitor. What can you offer?"</pre>
+
+            <h4>Schema Used</h4>
+            <pre>{
+  "type": "object",
+  "properties": {
+    "classifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "email_id": { "type": "string" },
+          "sentiment": { "enum": ["positive", "negative", "neutral"] },
+          "category": { "enum": ["shipping", "product_feedback", "inquiry", "complaint", "retention"] },
+          "priority": { "enum": ["low", "medium", "high"] },
+          "action_required": { "enum": ["yes", "no"] },
+          "summary": { "type": "string" }
+        }
+      }
+    }
+  }
+}</pre>
+
+            <h4>Output (JSON)</h4>
+            <pre>{
+  "classifications": [
+    {
+      "email_id": "1",
+      "sentiment": "negative",
+      "category": "shipping",
+      "priority": "high",
+      "action_required": "yes",
+      "summary": "Customer frustrated with 3-week wait, demanding refund"
+    },
+    {
+      "email_id": "2",
+      "sentiment": "positive",
+      "category": "product_feedback",
+      "priority": "low",
+      "action_required": "no",
+      "summary": "Satisfied customer praising product quality"
+    },
+    {
+      "email_id": "3",
+      "sentiment": "neutral",
+      "category": "inquiry",
+      "priority": "medium",
+      "action_required": "yes",
+      "summary": "Customer asking about product availability in specific color"
+    },
+    {
+      "email_id": "4",
+      "sentiment": "negative",
+      "category": "complaint",
+      "priority": "high",
+      "action_required": "yes",
+      "summary": "Customer complaining about defective product"
+    },
+    {
+      "email_id": "5",
+      "sentiment": "neutral",
+      "category": "retention",
+      "priority": "medium",
+      "action_required": "yes",
+      "summary": "Customer exploring competitor options, requesting competitive offer"
+    }
+  ]
+}</pre>
+
+            <h3>📝 More Examples</h3>
+
+            <h4>Example 1: Product Data Extraction</h4>
+            <pre>{
+  "prompt": "Extract product information from the text",
+  "input": { "text": "Apple MacBook Pro 14-inch, M3 Pro chip, 18GB RAM, 512GB SSD, Space Gray, $1,999" },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "brand": { "type": "string" },
+      "model": { "type": "string" },
+      "screen_size": { "type": "string" },
+      "processor": { "type": "string" },
+      "ram": { "type": "string" },
+      "storage": { "type": "string" },
+      "color": { "type": "string" },
+      "price": { "type": "number" }
+    }
+  }
+}</pre>
+
+            <h4>Example 2: Support Ticket Routing</h4>
+            <pre>{
+  "prompt": "Analyze this support ticket and determine routing",
+  "input": { 
+    "ticket_id": "TKT-12345",
+    "message": "I can't log into my account, getting error 500. I've tried resetting my password 3 times."
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "department": { "type": "string", "enum": ["billing", "technical", "sales", "general", "security"] },
+      "urgency": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+      "estimated_resolution_hours": { "type": "number" },
+      "requires_supervisor": { "type": "boolean" }
+    }
+  }
+}</pre>
+
+            <h4>Example 3: Content Moderation</h4>
+            <pre>{
+  "prompt": "Analyze this user comment for policy violations",
+  "input": { "comment": "This product is amazing! Best purchase I've ever made." },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "is_safe": { "type": "boolean" },
+      "is_spam": { "type": "boolean" },
+      "violation_categories": { "type": "array", "items": { "type": "string" } },
+      "recommended_action": { "type": "string", "enum": ["approve", "flag_for_review", "reject", "ban_user"] },
+      "confidence_score": { "type": "number", "minimum": 0, "maximum": 1 }
+    }
+  }
+}</pre>
+
+            <h4>Example 4: Lead Scoring</h4>
+            <pre>{
+  "prompt": "Score this lead based on the conversation",
+  "input": { 
+    "lead_data": {
+      "company_size": "500-1000 employees",
+      "budget": "$50,000-100,000/year",
+      "timeline": "looking to purchase within 1 month",
+      "industry": "technology",
+      "role": "CTO"
+    }
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "lead_score": { "type": "number", "minimum": 0, "maximum": 100 },
+      "grade": { "type": "string", "enum": ["A", "B", "C", "D"] },
+      "key_factors": { "type": "array", "items": { "type": "string" } },
+      "recommended_followup": { "type": "string" }
+    }
+  }
+}</pre>
+
+            <h4>Example 5: Invoice Processing</h4>
+            <pre>{
+  "prompt": "Extract and validate invoice data",
+  "input": { 
+    "invoice_text": "Invoice #INV-2026-0012 | Date: Jan 15, 2026 | Due: Feb 15, 2026 | Total: $5,750.00 | Vendor: Acme Corp" 
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "invoice_number": { "type": "string" },
+      "invoice_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "due_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+      "vendor_name": { "type": "string" },
+      "total_amount": { "type": "number" },
+      "currency": { "type": "string", "default": "USD" },
+      "is_valid": { "type": "boolean" }
+    },
+    "required": ["invoice_number", "total_amount", "is_valid"]
+  }
+}</pre>
+
+            <h3>⚙️ Advanced Configuration</h3>
+            <pre>{
+  "plugins": {
+    "entries": {
+      "llm-task": {
+        "enabled": true,
+        "config": {
+          "defaultProvider": "minimax",
+          "defaultModel": "minimax-m2.1",
+          "defaultAuthProfileId": "main",
+          "allowedModels": ["minimax/minimax-m2.1", "openai-codex/gpt-5.2"],
+          "maxTokens": 800,
+          "timeoutMs": 30000
+        }
+      }
+    }
+  }
+}</pre>
+
+            <div class="box warning">
+                <strong>💡 Pro Tip:</strong> Use Lobster workflows to chain multiple llm-task calls together for complex processing pipelines!
+            </div>
+
+            <h3>🔗 Integration with Lobster</h3>
+            <p>The llm-task tool works seamlessly with Lobster workflows:</p>
+            <pre>{
+  "name": "email-processing-pipeline",
+  "steps": [
+    {
+      "id": "classify",
+      "task": "llm_task",
+      "input": { "emails": "$emails" },
+      "config": {
+        "prompt": "Classify each email",
+        "schema": { /* classification schema */ }
+      }
+    },
+    {
+      "id": "route",
+      "task": "llm_task",
+      "input": { "classified": "$classify.result" },
+      "config": {
+        "prompt": "Route tickets to appropriate teams",
+        "schema": { /* routing schema */ }
+      }
+    },
+    {
+      "id": "notify",
+      "task": "approve",
+      "dependsOn": ["route"],
+      "input": { "routing_decisions": "$route.result" }
+    }
+  ]
+}</pre>
+        </section>
+
+        <!-- Section 3: Web Tools -->
+        <section id="web-tools">
+            <h2>🌐 WEB TOOLS</h2>
+
+            <div class="card">
+                <h4>🔍 WEB SEARCH (Perplexity Sonar-Pro)</h4>
+                <p><strong>Provider:</strong> perplexity</p>
+                <p><strong>Model:</strong> sonar-pro</p>
+                <p><strong>API Key:</strong> Configured</p>
+                
+                <h4>Commands</h4>
+                <div class="command">clawdbot agent --message "Search for latest AI news" --deliver</div>
+
+                <h4>Use Cases</h4>
+                <ul>
+                    <li>Current events</li>
+                    <li>Technical research</li>
+                    <li>Fact checking</li>
+                    <li>Market research</li>
+                    <li>News monitoring</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>📄 WEB FETCH</h4>
+                <p><strong>What:</strong> Extract and summarize content from URLs</p>
+                
+                <h4>Commands</h4>
+                <div class="command">clawdbot agent --message "Fetch and summarize this URL" --deliver</div>
+
+                <h4>Use Cases</h4>
+                <ul>
+                    <li>Content extraction</li>
+                    <li>Page summarization</li>
+                    <li>Data scraping</li>
+                    <li>Article reading</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 4: Browser -->
+        <section id="browser">
+            <h2>🖥️ BROWSER</h2>
+
+            <div class="box success">
+                <strong>Status:</strong> ✅ Running (clawd profile - orange)<br>
+                <strong>Control URL:</strong> http://127.0.0.1:18791<br>
+                <strong>CDP URL:</strong> http://127.0.0.1:18792
+            </div>
+
+            <div class="grid-2">
+                <div>
+                    <h4>Profiles</h4>
+                    <table>
+                        <tr><th>Profile</th><th>Port</th><th>Color</th></tr>
+                        <tr><td>clawd</td><td>18800</td><td>#FF4500 orange</td></tr>
+                        <tr><td>chrome</td><td>18801</td><td>#0066CC blue</td></tr>
+                    </table>
+                </div>
+                <div>
+                    <h4>Commands</h4>
+                    <div class="command">clawdbot browser open &lt;url&gt;</div>
+                    <div class="command">clawdbot browser snapshot</div>
+                    <div class="command">clawdbot browser screenshot [file]</div>
+                    <div class="command">clawdbot browser click @&lt;ref&gt;</div>
+                    <div class="command">clawdbot browser fill @&lt;ref&gt; "text"</div>
+                    <div class="command">clawdbot browser scroll down 500</div>
+                    <div class="command">clawdbot browser get url|title</div>
+                </div>
+            </div>
+
+            <h4>Example Workflow</h4>
+            <pre>
+clawdbot browser open https://x.com/davispeet
+clawdbot browser snapshot
+clawdbot browser screenshot profile.png</pre>
+        </section>
+
+        <!-- Section 5: Authentication -->
+        <section id="auth">
+            <h2>🔐 AUTHENTICATION PROVIDERS</h2>
+
+            <table>
+                <tr><th>Provider</th><th>Status</th><th>Auth Command</th></tr>
+                <tr><td>minimax</td><td><span class="badge green">✅ Configured</span></td><td>Built-in</td></tr>
+                <tr><td>openai</td><td><span class="badge green">✅ Configured</span></td><td>Built-in</td></tr>
+                <tr><td>qwen-portal</td><td><span class="badge green">✅ Enabled</span></td><td>clawdbot models auth login --provider qwen-portal --set-default</td></tr>
+                <tr><td>google-antigravity</td><td><span class="badge green">✅ Enabled</span></td><td>clawdbot models auth login --provider google-antigravity --set-default</td></tr>
+                <tr><td>google-gemini-cli</td><td><span class="badge green">✅ Enabled</span></td><td>clawdbot models auth login --provider google-gemini-cli --set-default</td></tr>
+            </table>
+
+            <h4>Commands</h4>
+            <div class="command">clawdbot models list                      # List available models</div>
+            <div class="command">clawdbot models use &lt;provider/model&gt;   # Switch default model</div>
+            <div class="command">clawdbot models auth login --provider &lt;name&gt; --set-default  # Authenticate</div>
+        </section>
+
+        <!-- Section 6: Quick Workflows -->
+        <section id="workflows">
+            <h2>⚡ QUICK WORKFLOWS</h2>
+
+            <div class="workflow">
+                <h4><span class="workflow-number">1</span> Research Pipeline</h4>
+                <div class="step"><span class="step-num">1</span> clawdbot agent --message "Search for AI trends 2026" --deliver</div>
+                <div class="step"><span class="step-num">2</span> clawdbot agent --message "Fetch and summarize top 5 articles" --deliver</div>
+                <div class="step"><span class="step-num">3</span> clawdbot agent --message "Remember key findings" --deliver</div>
+                <div class="step"><span class="step-num">4</span> clawdbot agent --message "Write summary to research.md" --deliver</div>
+            </div>
+
+            <div class="workflow">
+                <h4><span class="workflow-number">2</span> Social Media Monitoring</h4>
+                <div class="step"><span class="step-num">1</span> npx bird user-tweets davispeet</div>
+                <div class="step"><span class="step-num">2</span> npx bird search "mybrand" -n 20</div>
+                <div class="step"><span class="step-num">3</span> npx bird user-tweets davispeet > data/twitter/tweets.txt</div>
+            </div>
+
+            <div class="workflow">
+                <h4><span class="workflow-number">3</span> Content Creation</h4>
+                <div class="step"><span class="step-num">1</span> clawdbot agent --message "Research: Benefits of meditation" --deliver</div>
+                <div class="step"><span class="step-num">2</span> uv run Skills/chutes-image-gen/scripts/generate.py --prompt "Peaceful meditation scene" --filename meditation.png</div>
+                <div class="step"><span class="step-num">3</span> clawdbot agent --message "Write 500-word article about meditation benefits" --deliver</div>
+            </div>
+
+            <div class="workflow">
+                <h4><span class="workflow-number">4</span> Image Generation & Editing</h4>
+                <div class="step"><span class="step-num">1</span> uv run Skills/chutes-image-gen/scripts/generate.py --prompt "Product photo of headphones" --filename headphones.png</div>
+                <div class="step"><span class="step-num">2</span> uv run Skills/chutes-image-gen/scripts/edit.py --prompt "Add blue accent lights" --input-image headphones.png --filename headphones-blue.png</div>
+            </div>
+
+            <div class="workflow">
+                <h4><span class="workflow-number">5</span> Data Classification (LLM Task)</h4>
+                <p>Configure agent with llm-task allowlist, then:</p>
+                <div class="step"><span class="step-num">1</span> clawdbot agent --message "Classify these customer emails" --deliver</div>
+                <div class="step"><span class="step-num">2</span> Output is structured JSON with sentiment, category, priority</div>
+            </div>
+        </section>
+
+        <!-- Section 7: CLI Commands -->
+        <section id="cli">
+            <h2>⌨️ CLI COMMANDS QUICK REFERENCE</h2>
+
+            <div class="grid-2">
+                <div>
+                    <h4>Gateway</h4>
+                    <div class="command">clawdbot gateway start</div>
+                    <div class="command">clawdbot gateway stop</div>
+                    <div class="command">clawdbot gateway restart</div>
+                    <div class="command">clawdbot gateway status</div>
+                </div>
+                <div>
+                    <h4>Browser</h4>
+                    <div class="command">clawdbot browser open &lt;url&gt;</div>
+                    <div class="command">clawdbot browser snapshot</div>
+                    <div class="command">clawdbot browser screenshot [file]</div>
+                    <div class="command">clawdbot browser click @&lt;ref&gt;</div>
+                </div>
+                <div>
+                    <h4>Plugins & Skills</h4>
+                    <div class="command">clawdbot plugins list</div>
+                    <div class="command">clawdbot plugins enable &lt;name&gt;</div>
+                    <div class="command">clawdbot skills list</div>
+                    <div class="command">clawdbot skills create</div>
+                </div>
+                <div>
+                    <h4>Models & Agents</h4>
+                    <div class="command">clawdbot models list</div>
+                    <div class="command">clawdbot models use &lt;provider/model&gt;</div>
+                    <div class="command">clawdbot agent --message "task" --deliver</div>
+                    <div class="command">clawdbot doctor</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Configuration -->
+        <section id="config">
+            <h2>⚙️ CONFIGURATION FILES</h2>
+
+            <table>
+                <tr><th>File</th><th>Purpose</th></tr>
+                <tr><td>~/.clawdbot/clawdbot.json</td><td>Main configuration (plugins, skills, agents, browser)</td></tr>
+                <tr><td>~/.clawdbot/.env</td><td>Skill environment variables</td></tr>
+                <tr><td>~/.clawdbot/telegram.token</td><td>Telegram bot token</td></tr>
+                <tr><td>~/.clawdbot/agents/</td><td>Agent configurations</td></tr>
+                <tr><td>~/.clawdbot/extensions/</td><td>Custom plugins</td></tr>
+                <tr><td>~/.clawdbot/memory/</td><td>Memory storage</td></tr>
+            </table>
+        </section>
+
+        <!-- Section 9: Troubleshooting -->
+        <section id="troubleshooting">
+            <h2>🔧 TROUBLESHOOTING</h2>
+
+            <div class="card">
+                <h4>Gateway Issues</h4>
+                <div class="command">clawdbot gateway status</div>
+                <div class="command">clawdbot gateway restart</div>
+                <div class="command">cat /tmp/clawdbot/clawdbot-*.log</div>
+                <div class="command">clawdbot doctor</div>
+            </div>
+
+            <div class="card">
+                <h4>Browser Issues</h4>
+                <div class="command">clawdbot browser status</div>
+                <div class="command">clawdbot gateway restart</div>
+            </div>
+
+            <div class="card">
+                <h4>Authentication Issues</h4>
+                <div class="command">clawdbot models auth login --provider &lt;name&gt;</div>
+                <div class="command">cat ~/.clawdbot/clawdbot.json | grep apiKey</div>
+            </div>
+
+            <div class="box danger">
+                <strong>Security Audit:</strong> Run <code>clawdbot security audit --deep</code> regularly
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>🦞 Clawdbot Tools & Plugins Guide</strong></p>
+        <p>Generated: Tue Jan 27 2026</p>
+        <p>Documentation: <a href="https://docs.clawd.bot/" target="_blank">https://docs.clawd.bot/</a></p>
+        <p>GitHub: <a href="https://github.com/clawdbot" target="_blank">https://github.com/clawdbot</a></p>
+    </footer>
+</body>
+</html>

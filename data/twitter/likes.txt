@@ -1,0 +1,272 @@
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+
+@xangminah (Ka.):
+https://t.co/anNCgla19W
+🖼️ https://pbs.twimg.com/media/G_FkfSTXIAEUHK2.jpg
+📅 Tue Jan 20 06:37:04 +0000 2026
+🔗 https://x.com/xangminah/status/2013501010216657131
+──────────────────────────────────────────────────
+
+@thaimovies888 (หนังไทยในตำนาน):
+พี่หยุ่นพาลุย : น้องโมนา
+ถ้าเป็นสก๊อยไทยขอให้บอกพี่หยุ่นแกถนัดกว่าพี่หรั่งเยอะแล้วไม่รู้แกดีลยังไงได้ยสตน.ทุกคนพี่หรั่งยังทำแบบนี้ไม่ได้
+——————
+🎰 𝐍𝐎𝐕𝐀𝟔𝟗 🚀
+📌 ระบบใหม่ เล่นง่ายไม่ซับซ้อน
+🏧 ฝากถอน Auto ไม่ต้องรอนาน
+🤑 คืนค่าคอม 0.5% ทุกวัน
+✅ สมัคร: https://t.co/5Pu8Wpz0Gt https://t.co/TKk2TwASpY
+🎬 https://pbs.twimg.com/amplify_video_thumb/2010350565071724544/img/onsv1BHImwcu2RlP.jpg
+📅 Sun Jan 11 13:59:18 +0000 2026
+🔗 https://x.com/thaimovies888/status/2010350810279149950
+──────────────────────────────────────────────────
+
+@llama_index (LlamaIndex 🦙):
+Check out the form-filling agent that automates PDF forms using AI by @jerryjliu0 📄🤖
+
+Use any fillable PDF with an agent that fills it out based on your prompts and context files. Our new experiment creates a multi-turn chat experience for form completion.
+
+🔍 Upload fillable PDFs and automatically detect form fields using PyMuPDF
+📝 Add custom prompts and context files (parsed via LlamaParse) to guide the AI
+🤖 Multi-turn conversations let you refine and correct form entries after initial completion
+💾 Download your completed forms when done
+
+The agent uses simple tools to list, set, get, and validate form fields. You can chat with it to make corrections and adjustments until your form is perfect.
+
+Check out the code on GitHub: https://t.co/Dft8Xr6uGd
+Or the deployed app here: https://t.co/36nG3EXpxB
+🎬 https://pbs.twimg.com/amplify_video_thumb/2008947750776524801/img/UDB_7GbxzruCIYz9.jpg
+📅 Wed Jan 07 17:04:15 +0000 2026
+🔗 https://x.com/llama_index/status/2008947804170035496
+──────────────────────────────────────────────────
+
+@thaibaanlanper (ไทบ้าน ล้าน %):
+พี่สะใภ้ลักหลับน้องชายผัว
+
+#ชายแท้ #ชาบแท้เย็ดหี #เย็ดสดแตกใน #ยสตน https://t.co/C8bai9BTgu
+🎬 https://pbs.twimg.com/amplify_video_thumb/2002062313319510018/img/dAizB4I9re91ZKPm.jpg
+📅 Fri Dec 19 17:05:37 +0000 2025
+🔗 https://x.com/thaibaanlanper/status/2002062776999817689
+──────────────────────────────────────────────────
+
+@godofprompt (God of Prompt):
+Everyone assumes ChatGPT uses some sophisticated RAG system with vector databases to remember your conversations. Not really. 
+
+After reverse-engineering the entire memory architecture, this developer discovered something way simpler and frankly, smarter. 
+
+ChatGPT uses four distinct layers: ephemeral session metadata, explicit long-term facts, lightweight conversation summaries, and a sliding window of current messages. No embeddings. No similarity searches. No retrieval overhead. Just clean, curated context injection that prioritizes speed over completeness.
+
+The session metadata layer is pure genius from a UX perspective. ChatGPT knows your device type, browser, timezone, subscription level, usage patterns, even your dark mode preference and screen size. This data is injected once per session and never stored permanently. It allows the model to adapt responses to your environment in real-time without cluttering long-term memory. 
+
+Think about it - the model knows you’re on mobile at 2 AM versus desktop during work hours, and can adjust complexity and formatting accordingly. That’s environmental adaptation without the token cost of storing it forever.
+
+The user memory component is where most people focus, but it’s surprisingly minimal. Only 33 explicit facts stored long-term - name, career goals, preferences, projects. These facts are added either when you explicitly say “remember this” or when the model detects something significant and you implicitly confirm through conversation. 
+
+This isn’t passive observation of everything you say. It’s selective, deliberate storage of what actually matters. The key insight: not everything needs to be remembered. Most context is disposable.
+
+Here’s where it gets interesting for anyone building AI products: the recent conversations summary completely bypasses traditional RAG. Instead of embedding every past message and running expensive similarity searches, ChatGPT pre-computes lightweight digests of about 15 recent conversations - just timestamps, titles, and user message snippets. 
+
+No assistant responses included. This creates a loose map of your recent interests without the computational overhead of full-transcript retrieval. It’s trading detailed historical context for speed and token efficiency, and for 95% of use cases, that’s the right trade-off.
+
+The current session uses a standard sliding window approach, but the implementation detail matters. Token count determines the cap, not message count. 
+
+As you approach limits, older messages in the current session roll off, but your memory facts and conversation summaries persist. This means you maintain long-term continuity even as short-term context expires. The architecture acknowledges that not all context has equal value - persistent facts matter more than the middle of a long conversation three days
+┌─ QT @manthanguptaa:
+│ I spent the last few days prompting ChatGPT to understand how its memory system actually works.
+│ 
+│ Spoiler alert: There is no RAG used
+│ 
+│ 🖼️ https://pbs.twimg.com/media/G7x-vjXakAArpzJ.png
+└─ https://x.com/manthanguptaa/status/1998615541574152257
+📅 Wed Dec 10 21:19:48 +0000 2025
+🔗 https://x.com/godofprompt/status/1998865254730875271
+──────────────────────────────────────────────────
+
+@Chinmayi (Chinmayi Sripaada):
+@TARUNspeakss Please dont insult 1658
+📅 Sun Dec 07 19:09:33 +0000 2025
+🔗 https://x.com/Chinmayi/status/1997745312824475915
+──────────────────────────────────────────────────
+
+@pate_chirag (Chīrāg):
+@kaisiyejindagi https://t.co/nxG29Pe3fn
+🖼️ https://pbs.twimg.com/media/G6zvrXNbQAAzENi.jpg
+📅 Fri Nov 28 02:29:59 +0000 2025
+🔗 https://x.com/pate_chirag/status/1994232272317305125
+──────────────────────────────────────────────────
+
+@pate_chirag (Chīrāg):
+@kaisiyejindagi https://t.co/9ByxdTmBNg
+┌─ QT @pate_chirag:
+│ Pure video he apni pass to 🤣🤣 https://t.co/vfAq760bQJ
+│ 🎬 https://pbs.twimg.com/ext_tw_video_thumb/1993139274875912197/pu/img/q-jHB21E_KSNYELJ.jpg
+└─ https://x.com/pate_chirag/status/1993139294601724039
+📅 Fri Nov 28 03:22:52 +0000 2025
+🔗 https://x.com/pate_chirag/status/1994245582005916038
+──────────────────────────────────────────────────
+
+@JustinLin610 (Junyang Lin):
+Cong to our team for the NeurIPS Best Paper!
+┌─ QT @Alibaba_Qwen:
+│ 🏆 We are incredibly honored to announce that our paper, "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free" has received the NeurIPS 2025 Best Paper Award!
+│ 
+│ A huge congratulations to our dedicated research team for pushing the boundaries...
+│ 🖼️ https://pbs.twimg.com/media/G6uXi6Qa0AMp2pD.jpg
+└─ https://x.com/Alibaba_Qwen/status/1993854188171006453
+📅 Thu Nov 27 01:37:45 +0000 2025
+🔗 https://x.com/JustinLin610/status/1993856738525892833
+──────────────────────────────────────────────────
+
+@Alibaba_Qwen (Qwen):
+🚀 Qwen Code v0.2.1 is here!
+We shipped 8 versions（v0.1.0->v0.2.1） in just 17 days with major improvements:
+
+What's New:
+🌐 Free Web Search: Support for multiple providers. Qwen OAuth users get 2000 free searches per day!
+🎯 Smarter Code Editing: New fuzzy matching pipeline reduces errors and saves tokens—fewer retries needed.
+⚙️More Control: Fine-tune AI behavior with temperature, top_p, and max tokens settings.
+💻 Better IDE Integration: Enhanced Zed IDE support with todo and task management tools.
+📝 Cleaner Output: Tool responses now use plain text instead of complex JSON—easier for AI to understand.
+🔍 Improved Search: Better file filtering (respects `.gitignore`), smarter search tools, and standardized naming.
+⚡ Faster Performance: Multi-stage normalization pipeline for zero-overhead matching, better Unicode handling, and optimized output limits.
+🐛 Bug Fixes: Fixed token limits for multiple models, improved cross-platform support (macOS & Windows), and better stability.
+
+Try it now—smoother, more reliable AI coding!
+🔗 https://t.co/qqwj5nAO3Z
+📝 https://t.co/zPMyCVIskN
+🖼️ https://pbs.twimg.com/media/G5un1SabgAAuj62.jpg
+📅 Fri Nov 14 16:22:22 +0000 2025
+🔗 https://x.com/Alibaba_Qwen/status/1989368317011009901
+──────────────────────────────────────────────────
+
+@iannuttall (Ian Nuttall):
+This tool lets you use Claude Skills with any AI agent (Codex, Factory, Cursor etc)
+
+- Same format and folders, just CLI instead of tools
+- Access marketplace skills through GitHub
+- Uses progressive disclosure (skills on demand)
+
+https://t.co/shd7ahricw https://t.co/Hvp2IElxmD
+🖼️ https://pbs.twimg.com/media/G4XxZEDWYAAk5b6.jpg
+📅 Tue Oct 28 19:40:29 +0000 2025
+🔗 https://x.com/iannuttall/status/1983257581020643332
+──────────────────────────────────────────────────
+
+@steipete (Peter Steinberger 🦞):
+Today, I let Claude Haiku run an army of codex subagents to fix a myriad of new linter issues that popped up after adopting next/eslint-plugin-next.
+
+All you need is tmux and some creativity. https://t.co/mOQ0a58qFc
+🖼️ https://pbs.twimg.com/media/G4PC6EXWEAA98Vl.jpg
+📅 Mon Oct 27 02:57:50 +0000 2025
+🔗 https://x.com/steipete/status/1982642868599804170
+──────────────────────────────────────────────────
+
+@MiniMax_AI (MiniMax (official)):
+We’re open-sourcing MiniMax M2 — Agent & Code Native, at 8% Claude Sonnet price, ~2x faster
+⚡ Global FREE for a limited time via MiniMax Agent & API
+- Advanced Coding Capability: Engineered for end-to-end developer workflows. Strong capability on a wide-range of applications (Claude Code, Cursor, Cline, Kilo Code, Droid, etc)
+- High Agentic Performance: Robust handling of long-horizon toolchains (mcp, shell, browser, retrieval, code).
+- Smarter, Faster, Cheaper with efficient parameter activation
+🖼️ https://pbs.twimg.com/media/G4PbTMAXAAAT4G-.jpg
+📅 Mon Oct 27 05:04:42 +0000 2025
+🔗 https://x.com/MiniMax_AI/status/1982674798649160175
+──────────────────────────────────────────────────
+
+@GithubProjects (GitHub Projects Community):
+Open-source tool that resets Cursor AI limits and boosts your coding freedom effortlessly. https://t.co/na9XrmGk4I
+🖼️ https://pbs.twimg.com/media/G4HI2qIXgAAinOe.jpg
+📅 Sat Oct 25 14:05:40 +0000 2025
+🔗 https://x.com/GithubProjects/status/1982086160844562467
+──────────────────────────────────────────────────
+
+@MatichonOnline (Matichon Online):
+มือยิง ซีอีโอประกันดัง อ้าง ถูกเลดี้บอย 7 คน รุมทำร้ายในไทย เลยได้รู้ ระบบสุขภาพสหรัฐห่วยแตก
+
+#มติชนออนไลน์ https://t.co/M60Tdb3HWj
+🖼️ https://pbs.twimg.com/media/G4A7fqWXoAAnGkM.jpg
+📅 Fri Oct 24 09:09:43 +0000 2025
+🔗 https://x.com/MatichonOnline/status/1981649293149978890
+──────────────────────────────────────────────────
+
+@rryssf_ (Robert Youssef):
+Holy shit... Tencent researchers just killed fine-tuning AND reinforcement learning in one shot 😳
+
+They call it Training-Free GRPO (Group Relative Policy Optimization).
+
+Instead of updating weights, the model literally learns from 'its own experiences' like an evolving memory that refines how it thinks without ever touching parameters.
+
+Here’s what’s wild:
+
+- No fine-tuning. No gradients.
+- Uses only 100 examples.
+- Outperforms $10,000+ RL setups.
+- Total cost? $18.
+
+It introspects its own rollouts, extracts what worked, and stores that as “semantic advantage” a natural language form of reinforcement.
+
+LLMs are basically teaching themselves 'how' to think, not just 'what' to output.
+
+This could make traditional RL and fine-tuning obsolete.
+
+We’re entering the “training-free” era of AI optimization.
+🖼️ https://pbs.twimg.com/media/G3S2gN5bAAEPrxl.jpg
+📅 Wed Oct 15 10:25:13 +0000 2025
+🔗 https://x.com/rryssf_/status/1978406803613561047
+──────────────────────────────────────────────────
+
+@AntLingAGI (Ant Ling):
+🚀We officially release Ring-1T, the open-source trillion-parameter thinking model built on the Ling 2.0 architecture.
+
+Ring-1T achieves silver-level IMO reasoning through pure natural language reasoning.
+
+→ 1 T total / 50 B active params · 128 K context window
+→ Reinforced by Icepop RL + ASystem (Trillion-Scale RL Engine)
+→ Open-source SOTA in natural language reasoning — AIME 25 / HMMT 25 / ARC-AGI-1 / CodeForce
+
+Deep thinking · Open weights · FP8 version available
+
+We're still training and pushing to do more. Stay tuned!
+
+1/5
+🖼️ https://pbs.twimg.com/media/G3Jr2kXbUAA2CqF.jpg
+📅 Mon Oct 13 16:05:15 +0000 2025
+🔗 https://x.com/AntLingAGI/status/1977767599657345027
+──────────────────────────────────────────────────
+
+@Ali_TongyiLab (Tongyi Lab):
+The latest Qwen Code release (v0.0.14) is packed with workflow enhancements.
+Love the new Plan Mode for approving implementation strategies upfront. The automatic handoff to Qwen3-VL-Plus for image tasks is also incredibly smart. Plus, key fixes for Windows pasting, Zed auth, and tool calls make it more solid than ever.
+Great work by the team!
+┌─ QT @Alibaba_Qwen:
+│ 🚀 Exciting updates in Qwen Code v0.0.12–v0.0.14!
+│ 
+│ ✨ What’s new?
+│ • Plan Mode: AI proposes a full implementation plan—you approve before a single line changes.
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/1976932910809944065/img/gYKt-08vUEIr703F.jpg
+└─ https://x.com/Alibaba_Qwen/status/1976933486654374240
+📅 Sat Oct 11 09:52:08 +0000 2025
+🔗 https://x.com/Ali_TongyiLab/status/1976948927510573116
+──────────────────────────────────────────────────
+
+@Chandan33001518 (垂爱):
+Chudai
+https://t.co/mYAYXZAFb2 https://t.co/t2dreaAXdo
+🎬 https://pbs.twimg.com/amplify_video_thumb/1976570991439667200/img/C9AVvfJAzqxhpDYO.jpg
+┌─ QT @Chandan33001518:
+│ 推只是冰山一角 更多内容尽在：👇
+│ 
+│ 萝莉岛 ： https://t.co/AND0k3kcuY
+│ 
+└─ https://x.com/Chandan33001518/status/1976570774954922364
+📅 Fri Oct 10 08:51:48 +0000 2025
+🔗 https://x.com/Chandan33001518/status/1976571354037272845
+──────────────────────────────────────────────────
+
+@PHOTIXLABS (P站小骚兔🐰):
+Wataa #完整版在评论 
+@BBYouzhiyuan @SexytoDoll @SexytoGirl @SexytoBaby https://t.co/YUlCM82U2U
+🎬 https://pbs.twimg.com/amplify_video_thumb/1971686939356262400/img/2hlrxauV_FZlcoUG.jpg
+📅 Fri Sep 26 21:29:57 +0000 2025
+🔗 https://x.com/PHOTIXLABS/status/1971688717791465718
+──────────────────────────────────────────────────

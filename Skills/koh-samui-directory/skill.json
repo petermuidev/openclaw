@@ -1,0 +1,13 @@
+{
+  "name": "koh-samui-directory-pipeline",
+  "command": "bash",
+  "args": ["Skills/koh-samui-directory/scripts/pipeline.sh"],
+  "description": "Automated pipeline to research, crawl, and generate Koh Samui travel directory listings",
+  "category": "automation",
+  "keywords": ["directory", "travel", "koh-samui", "research", "crawl", "pipeline"],
+  "version": "1.0.0",
+  "author": "Clawdbot",
+  "permissions": {
+    "tools": ["bash", "read", "write", "web_search", "clawdbot_agent"]
+  }
+}

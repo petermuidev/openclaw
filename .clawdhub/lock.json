@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1769437899538
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1769439334527
+    },
+    "blogwatcher": {
+      "version": "1.0.0",
+      "installedAt": 1769439335727
+    },
+    "bird": {
+      "version": "1.0.0",
+      "installedAt": 1769439336689
+    },
+    "gemini": {
+      "version": "1.0.0",
+      "installedAt": 1769439352419
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1769439363674
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1769439378551
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1769439483428
+    },
+    "self-improving-agent": {
+      "version": "1.0.2",
+      "installedAt": 1769439996283
+    },
+    "clawddocs": {
+      "version": "1.2.2",
+      "installedAt": 1769440006198
+    }
+  }
+}

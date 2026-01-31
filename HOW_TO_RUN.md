@@ -1,82 +1,52 @@
-# Clawdbot: Heroku Deployment
+# Clawdbot: what runs what (short)
 
-## Deploy to Heroku
+- Gateway: the backend server (WebSocket control plane). It is required. It routes messages, runs agents, and serves the web UI.
+- UI server: served by the Gateway. You do not run it separately. When the Gateway is up, the UI is available from the Gateway.
+- Backend vs UI: the Gateway is the backend; the UI is just a web frontend that connects to it.
 
-```bash
-cd /Users/json/Desktop/clawbot
-heroku login
-heroku create your-app-name
-heroku config:set CLAWDBOT_GATEWAY_TOKEN=your-secret-token
-heroku config:set MINIMAX_API_KEY=your-minimax-key
-heroku config:set TELEGRAM_BOT_TOKEN=your-telegram-token
-heroku config:set PERPLEXITY_API_KEY=your-perplexity-key
-heroku config:set R2_ACCESS_KEY_ID=your-r2-key
-heroku config:set R2_SECRET_ACCESS_KEY=your-r2-secret
-heroku config:set R2_BUCKET=samui
-heroku config:set R2_PUBLIC_BASE_URL=https://pub-599c201f5f884b2199d29c4e1e2e43d2.r2.dev
-git add .
-git commit -m "Deploy to Heroku"
-git push heroku main
-heroku open
-```
+## Minimum to run (local)
+1) Start the Gateway (this is enough).
+2) Open the UI or use CLI commands.
 
-## Access
-
-- **UI:** `https://your-app-name.herokuapp.com/?token=your-secret-token`
-- **Telegram:** Set webhook to `https://your-app-name.herokuapp.com/telegram/webhook`
-
-## Local Run
-
-```bash
-cd /Users/json/Desktop/clawbot/clawdbot
+## Run now (foreground)
+```powershell
+cd "C:\Users\Administrator\Desktop\New folder\clawdbot"
 pnpm install
-pnpm ui:build
-pnpm build
-CLAWDBOT_STATE_DIR=/Users/json/Desktop/clawbot \
-CLAWDBOT_CONFIG_PATH=/Users/json/Desktop/clawbot/clawdbot.json \
-clawdbot gateway --port 18789 --verbose
+pnpm clawdbot gateway run --bind loopback --port 18789 --verbose
 ```
 
-## Skills Installed
+## Run as a service (recommended)
+```powershell
+cd "C:\Users\Administrator\Desktop\New folder\clawdbot"
+pnpm clawdbot gateway install
+pnpm clawdbot gateway start
+```
 
-- self-improving-agent
-- gog
-- wacli
-- agent-browser
-- clawddocs
-- summarize
-- coding-agent
-- humanizer
-- clawdhub
-- github
-- superdesign
-- obsidian
-- youtube-watcher
-- claude-connect
-- marketing-mode
-- slack
-- search-x
-- yahoo-finance
-- notion
-- spotify-player
-- research
-- gemini-deep-research
-- web-search-plus
-- perplexity-sonar
-- competitive-intelligence-market-research
-- chutes-image-gen
+## Check / stop
+```powershell
+pnpm clawdbot gateway probe
+pnpm clawdbot gateway stop
+```
 
-## Plugins Enabled
+## UI
+- With Gateway running, the UI is served by it. (No separate UI server.)
 
-- lobster (workflows)
-- llm-task (JSON LLM tool)
-- telegram (channel)
+## Notes
+- Config uses `.env` in the repo automatically.
+- Default model is `minimax/minimax-m2.1` using MiniMax Anthropic-compatible API.
+- After any config change, restart the gateway.
 
-## Environment Variables (see /Users/json/Desktop/clawbot/.env)
+## When you change config
+```powershell
+pnpm clawdbot gateway restart
+```
 
-- MINIMAX_API_KEY
-- TELEGRAM_BOT_TOKEN
-- PERPLEXITY_API_KEY
-- CLAWDBOT_GATEWAY_TOKEN
-- R2_*
-- SUPABASE_*
+## Config change checklist
+1) Update config or `.env`
+2) Restart gateway
+3) Probe gateway
+
+```powershell
+pnpm clawdbot gateway restart
+pnpm clawdbot gateway probe
+```
